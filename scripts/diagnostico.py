@@ -278,7 +278,7 @@ def report(root, directory, info, sensitivity, by_region, by_size, correlations,
     response_max = max(info["cobertura_respostas"], key=lambda row: row["resposta_pct"])
     audit = info["auditoria_bruta"]
     audit_text = (f"A comparação dos {br(audit['n_extremos_distintos'], 0)} municípios distintos selecionados nas dez maiores e dez menores razões por habitante ou tonelada confirmou diferença máxima de R$ {br(audit['diferenca_maxima_base_bruto_rs'])} entre a base e GFI2221 na planilha original. O máximo desvio da soma de componentes foi R$ {br(audit['diferenca_maxima_componentes_rs'])}." if audit["executada"] else f"Auditoria da planilha original não executada: {audit['motivo']}.")
-    text = f"""# Diagnóstico e prescrições preliminares
+    text = f"""# Diagnóstico e prescrições
 
 ## O que os dados sustentam agora
 

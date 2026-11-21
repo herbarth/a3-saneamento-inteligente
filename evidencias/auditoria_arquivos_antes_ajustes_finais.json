@@ -1,0 +1,196 @@
+{
+  "executado_em_utc": "2026-11-21T19:51:02.446587+00:00",
+  "escopo": "Auditoria independente de arquivos e coerência documental; somente leitura no projeto. Não reexecutei ETL, modelos nem testes já aprovados.",
+  "manifesto": {
+    "entradas": 123,
+    "divergencias": []
+  },
+  "zip": {
+    "arquivos": 124,
+    "bytes": 26258106,
+    "teste_crc": "aprovado",
+    "divergencias_com_local": [],
+    "arquivos_proibidos": []
+  },
+  "roteiro": {
+    "entregue_fora_do_projeto": true,
+    "ausente_no_projeto_e_zip": true
+  },
+  "base": {
+    "linhas": 5570,
+    "colunas": 56,
+    "chaves_unicas": 5570,
+    "dicionario_variaveis": 56,
+    "sha256": "f2529c8660ff8df47664a2b850a6be7cfbcb5dcc44261dc781249fe5bf7530de"
+  },
+  "notebook": {
+    "celulas_codigo_executadas": 5,
+    "contagens_execucao": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "erros_embutidos": 0,
+    "todas_com_saida": true
+  },
+  "pdf": {
+    "paginas": 16,
+    "sha256": "ddd8771809b1c0923e6c9fb0a7b6403315a34184c95d26bdc124db15b3d9f224",
+    "manifesto_e_qa_conferem": true,
+    "links_clicaveis": [
+      "https://github.com/herbarth/a3-saneamento-inteligente",
+      "https://a3-saneamento-inteligente-brasil.streamlit.app/",
+      "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/resultados-sinisa-2025",
+      "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/resultados-sinisa-2025",
+      "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/resultados-sinisa-2025",
+      "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/",
+      "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/microdados-rais-e-caged",
+      "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/microdados-rais-e-caged",
+      "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/microdados-rais-e-caged",
+      "ftp://ftp.mtps.gov.br/pdet/microdados/RAIS/2024/RAIS_ESTAB_PUB.7z",
+      "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2024/rais-2024-1/rais-complementar-tabelas-2023x2024.xlsx",
+      "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2024/rais-2024-1/rais-complementar-tabelas-2023x2024.xlsx",
+      "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2024/rais-2024-1/rais-complementar-tabelas-2023x2024.xlsx",
+      "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2024/rais-2024-1/rais-complementar-tabelas-2023x2024.xlsx",
+      "https://concla.ibge.gov.br/images/concla/documentacao/EstruturaDetalhadaCNAE_CNAEFiscal2_Atualizada.pdf",
+      "https://concla.ibge.gov.br/images/concla/documentacao/EstruturaDetalhadaCNAE_CNAEFiscal2_Atualizada.pdf",
+      "https://concla.ibge.gov.br/images/concla/documentacao/EstruturaDetalhadaCNAE_CNAEFiscal2_Atualizada.pdf"
+    ]
+  },
+  "excel": {
+    "sha256": "6fae3df18d8087fe3bd1ddbfbe463ec130d6074fe3d5ed6d600b24b0565eb96d",
+    "qa_preexistente_inalterado_confirmado": true,
+    "abas": [
+      "Resumo",
+      "Despesas_porte",
+      "Emprego_UF",
+      "Base2024",
+      "Dicionario_fontes"
+    ],
+    "dimensao_base_calculada": "A1:BD5571",
+    "resumo_cache": [
+      5570,
+      4854,
+      716,
+      0.8714542190305207,
+      4852,
+      265143
+    ],
+    "amostras_primeira_meio_ultima": [
+      {
+        "linha_dados": 1,
+        "cod_ibge": "1100015"
+      },
+      {
+        "linha_dados": 2786,
+        "cod_ibge": "3146305"
+      },
+      {
+        "linha_dados": 5570,
+        "cod_ibge": "5300108"
+      }
+    ],
+    "repeticao_comparacao_integral": false,
+    "campos_das_amostras": [
+      "cod_ibge",
+      "municipio",
+      "populacao_ibge_2024",
+      "vinculos_cnae38_3112"
+    ],
+    "comparacao_integral_preexistente": "QA de 311.920 células reutilizado após confirmar hash idêntico do XLSX e CSV; não repetido nesta auditoria"
+  },
+  "codigo": {
+    "arquivos_sintaxe_verificada": [
+      "scripts\\analisar_emprego_setorial.py",
+      "scripts\\atualizar_notebook.py",
+      "scripts\\diagnostico.py",
+      "scripts\\documentar_projeto.py",
+      "scripts\\eda_inicial.py",
+      "scripts\\etl.py",
+      "scripts\\extrair_ibge.py",
+      "scripts\\extrair_rais_setorial.py",
+      "scripts\\extrair_rais_tabelas.py",
+      "scripts\\gerar_relatorio.py",
+      "scripts\\obter_rais_setorial.py",
+      "scripts\\preparar_dados.py",
+      "scripts\\testar_dashboard.py",
+      "app.py"
+    ],
+    "imports_raiz": [
+      "PIL",
+      "__future__",
+      "argparse",
+      "collections",
+      "contextlib",
+      "csv",
+      "datetime",
+      "etl",
+      "extrair_ibge",
+      "extrair_rais_setorial",
+      "extrair_rais_tabelas",
+      "ftplib",
+      "hashlib",
+      "importlib",
+      "io",
+      "json",
+      "matplotlib",
+      "numpy",
+      "obter_rais_setorial",
+      "openpyxl",
+      "os",
+      "pandas",
+      "pathlib",
+      "platform",
+      "plotly",
+      "py7zr",
+      "re",
+      "reportlab",
+      "scipy",
+      "shutil",
+      "statsmodels",
+      "streamlit",
+      "sys",
+      "time",
+      "traceback",
+      "unicodedata",
+      "urllib",
+      "xml",
+      "zipfile"
+    ],
+    "rotas_reproducao_inspecionadas": [
+      "README comandos",
+      "preparar_dados.py",
+      "etl.py",
+      "obter_rais_setorial.py",
+      "requirements.txt"
+    ]
+  },
+  "achados": [
+    {
+      "nivel": "documentacao",
+      "arquivo": "docs/METODOLOGIA_E_DECISOES.md:68",
+      "achado": "Texto ainda diz que publicação/validação GitHub e Streamlit estão pendentes.",
+      "correcao_sugerida": "Atualizar para publicado/validado e manter só nomes/vídeo como pendências reais."
+    },
+    {
+      "nivel": "documentacao",
+      "arquivo": "docs/REQUISITOS_VERIFICADOS.md:último parágrafo",
+      "achado": "Ainda pede o professor e acesso às contas, já informados/resolvidos.",
+      "correcao_sugerida": "Manter como pendentes apenas nomes/composição do grupo e gravação/edição/YouTube."
+    },
+    {
+      "nivel": "documentacao",
+      "arquivo": "docs/identificacao_academica.json:cidade",
+      "achado": "Placeholder de cidade permanece, embora cidade não seja exigida nem usada na capa.",
+      "correcao_sugerida": "Remover esse placeholder/campo sem criar obrigação extra; nomes continuam aguardados."
+    }
+  ],
+  "limites": [
+    "Slides no Spaces não auditados nesta tarefa; root inspeciona.",
+    "Não conferi login ou UI dos endereços públicos; root faz a verificação externa.",
+    "Não alterei arquivos nem estados da checklist."
+  ],
+  "resultado": "Integridade e artefatos conferidos; corrigir os status documentais listados antes do fechamento."
+}

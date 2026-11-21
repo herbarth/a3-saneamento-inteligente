@@ -4,7 +4,7 @@
 
 Engenharia da Computação · Análise de Dados e Big Data  
 Professor: Eduardo Sidney da Silva Xavier  
-Referência dos dados: 2024 · Versão de trabalho: 20/11/2026
+Referência dos dados: 2024 · Revisão técnica: 21/11/2026
 
 ## Acesso ao projeto
 
@@ -13,7 +13,7 @@ Referência dos dados: 2024 · Versão de trabalho: 20/11/2026
 - **Planilha Excel:** [abrir a planilha com cinco abas](planilhas/Planilha_A3_Saneamento_Inteligente.xlsx)
 - **Vídeo:** gravação e publicação pendentes; o link final será incluído após a conferência.
 
-Esta é uma versão para revisão do grupo. A identificação dos integrantes e a conferência final das entregas permanecem pendentes.
+Dados, métodos e arquivos passaram pela revisão técnica documentada. Permanecem pendentes a identificação dos integrantes e o vídeo final do grupo.
 
 ## Resultado executado
 
@@ -77,4 +77,8 @@ O projeto segue o edital e os 20 itens do checklist. **A análise preditiva opci
 
 O **vídeo fica por último**, após o fechamento dos dados, das análises, do relatório e do dashboard. A apresentação tem dez slides em uma versão editável no Spaces. O dashboard passou por nove cenários funcionais locais. O repositório está público, com código, base, notebook, relatório e análises; os 104 arquivos da primeira publicação tiveram seus hashes conferidos com a cópia local. O dashboard Streamlit está publicado, com cinco abas inspecionadas, recorte da Bahia e download de 417 linhas × 56 colunas conferidos com a base local. O endereço respondeu em uma sessão nova sem credenciais. O grupo gravará a própria fala. A gravação, a edição e a publicação no YouTube permanecem pendentes; o limite de sete minutos deve ser conferido no arquivo final.
 
-Os nomes completos dos integrantes ainda precisam completar a identificação acadêmica. Curso e professor já foram inseridos. Edital e checklist são as referências obrigatórias; a apresentação formal não impõe exigências adicionais de TCC. A revisão do grupo e a conferência de links continuam necessárias antes da entrega de 03/12/2026.
+Os nomes completos dos integrantes ainda precisam completar a identificação acadêmica. Curso e professor já foram inseridos. Edital e checklist são as referências obrigatórias; a apresentação formal não impõe exigências adicionais de TCC. A revisão técnica e a conferência dos links foram executadas. Falta completar a identificação e inserir o vídeo final antes da entrega de 03/12/2026.
+
+## Revisão técnica final
+
+A conferência independente aprovou 148 controles numéricos, incluindo estatísticas, amostras, junções e modelos principais recalculados por método independente. Arquivos, notebook, Excel, relatório, apresentação e acesso aos links foram conferidos. Evidências e limites da revisão estão em `evidencias/revisao_final_tecnica.json`. As hipóteses e novas questões estão consolidadas em `docs/HIPOTESES_E_QUESTOES.md`.

@@ -1,0 +1,55 @@
+{
+  "executado_em_utc": "2026-11-21T19:59:35.198565+00:00",
+  "sha256_dataset": "f2529c8660ff8df47664a2b850a6be7cfbcb5dcc44261dc781249fe5bf7530de",
+  "sha256_pdf_revisado": "f74fc70ba0e721a5b5a6577ba552f6e066fa045c23d802aa445699eb122ab469",
+  "controles_numericos_independentes": 148,
+  "controles_numericos_aprovados": 148,
+  "auditoria_dados": "evidencias/auditoria_dados_final.json",
+  "auditoria_arquivos_base": "evidencias/auditoria_arquivos_antes_ajustes_finais.json",
+  "auditoria_entregas": "evidencias/auditoria_entregas_final.json",
+  "qa_pdf_final": "evidencias/revisao_pdf_final.json",
+  "escopo_arquivos_base": "integridade anterior aos ajustes finais de texto; PDF final e pacote posterior verificados em registros próprios",
+  "hipoteses": "docs/HIPOTESES_E_QUESTOES.md",
+  "links": "evidencias/links_finais_verificados.json",
+  "apresentacao": {
+    "page_id": "page_c1469173bb0c819182f6e8fe25bc1cbe",
+    "state_version": 10,
+    "slides": 10,
+    "verificacoes": "textos e cinco gráficos nativos confrontados; valores de ambas as séries de custos/emprego conferidos; visão geral e slides alterados inspecionados; links finais adicionados"
+  },
+  "status_checklist": {
+    "t8": {
+      "status": "documentada e revisada",
+      "evidencia": "Fontes, extração, transformações, decisões, dicionário e código conferidos; evidencias/revisao_final_tecnica.json."
+    },
+    "t12": {
+      "status": "executada e revisada tecnicamente",
+      "evidencia": "Controles independentes confirmam amostras, correlações e dois modelos OLS; inferência causal permanece limitada."
+    },
+    "t13": {
+      "status": "hipóteses confrontadas e novas questões documentadas",
+      "evidencia": "docs/HIPOTESES_E_QUESTOES.md — H1–H3 com evidências, conclusões observacionais, limites e perguntas futuras."
+    },
+    "t15": {
+      "status": "executada e revisada tecnicamente",
+      "evidencia": "Prescrições vinculadas às evidências e a pilotos a avaliar, sem prometer economia causal ou empregos futuros."
+    },
+    "t16": {
+      "status": "conteúdo consolidado e revisado; identificação pendente",
+      "evidencia": "Relatório formal revisado; faltam os nomes completos dos integrantes para identificação."
+    },
+    "t19": {
+      "status": "revisão técnica executada",
+      "evidencia": "Auditoria independente de dados, estatísticas, arquivos, relatório, Excel, notebook, apresentação e links; ver evidencias/revisao_final_tecnica.json."
+    }
+  },
+  "pendencias": [
+    "Nomes completos e composição da equipe ainda não informados.",
+    "Gravação, edição e publicação do vídeo do grupo, com conferência do limite de sete minutos.",
+    "Inserir o link YouTube final no repositório após a publicação."
+  ],
+  "limites": "Revisão confirma controles da extração e análise; não certifica veracidade econômica das autodeclarações municipais nem efeitos causais.",
+  "predicao_opcional": "dispensada",
+  "roteiro": "entregue diretamente ao grupo e mantido fora do repositório e do pacote público",
+  "resultado_tecnico": "revisão executada; não foram identificados erros materiais nos controles realizados"
+}

@@ -158,6 +158,14 @@ if publication_path.exists():
                 'repositório público com link do dashboard; vídeo pendente',
                 f'{github_url} — dashboard validado; completar link do vídeo após a última etapa.'
             )
+review_path = ROOT / 'evidencias/revisao_final_tecnica.json'
+if review_path.exists():
+    review = json.loads(review_path.read_text(encoding='utf-8'))
+    dataset_path = processed / 'saneamento_municipios_2024_parcial.csv'
+    if review.get('sha256_dataset') == sha(dataset_path):
+        for item_id, item in review.get('status_checklist', {}).items():
+            if item_id in status:
+                status[item_id] = (item['status'], item['evidencia'])
 checklist['status_real'] = checklist.id.map(lambda k: status[k][0])
 checklist['evidencia_ou_pendencia'] = checklist.id.map(lambda k: status[k][1])
 checklist.to_csv(docs / 'acompanhamento_a3.csv', index=False, encoding='utf-8-sig')

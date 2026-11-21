@@ -67,6 +67,8 @@ O item 20 exige que o repositório contenha relatório final, link do dashboard 
 - O HTML tem cinco itens com `data-final=true` (16, 17, 18, 19 e 20). A fórmula de percentual considera todos os 20 itens, incluindo o opcional; para acompanhamento, preferir relatar estados por item e separar os 19 obrigatórios.
 - Há erro tipográfico "20026-2" na p. 1 do PDF; o restante dos documentos e as datas indicam 2026-2. Preservar original e registrar em vez de alterar.
 
-## Pendências que não impedem a coleta
+## Identificação e entregas pendentes
 
-Nome dos integrantes, professor e composição do grupo ainda precisam ser informados para capa e conferência. Não há razão para interromper a coleta e o ETL por isso. Acesso às contas e publicação serão tratados quando houver artefatos concretos e revisáveis.
+Curso e professor já foram informados e inseridos. Os nomes completos e a composição do grupo ainda não foram fornecidos. O grupo deve corresponder à regra de equipe do edital ou à configuração previamente autorizada pelo professor.
+
+GitHub e dashboard já estão publicados e validados. A revisão técnica de dados, métodos e arquivos foi executada e registrada em `evidencias/revisao_final_tecnica.json`; não constitui uma exigência adicional de aprovação humana. Restam a identificação dos integrantes e o vídeo gravado pelo grupo, seguido de conferência de duração, publicação no YouTube e inclusão do link no repositório.

@@ -1,0 +1,1066 @@
+{
+  "executado_em_utc": "2026-11-21T19:50:58.734063+00:00",
+  "escopo": "auditoria independente de dados processados, matemática, amostras e resultados principais; não reexecutou a extração RAIS de 13.186.059 estabelecimentos nem o ETL bruto",
+  "sha256_dataset": "f2529c8660ff8df47664a2b850a6be7cfbcb5dcc44261dc781249fe5bf7530de",
+  "n_controles": 148,
+  "n_aprovados": 148,
+  "falhas": [],
+  "controles": [
+    {
+      "controle": "Base 5570x56",
+      "aprovado": true,
+      "observado": [
+        5570,
+        56
+      ],
+      "referencia": [
+        5570,
+        56
+      ]
+    },
+    {
+      "controle": "Chave municipal única e textual 7 dígitos",
+      "aprovado": true,
+      "observado": null,
+      "referencia": null
+    },
+    {
+      "controle": "Ano 2024",
+      "aprovado": true,
+      "observado": null,
+      "referencia": null
+    },
+    {
+      "controle": "Marcação das 3 fontes em todos os municípios",
+      "aprovado": true,
+      "observado": null,
+      "referencia": null
+    },
+    {
+      "controle": "Hashes das análises/ETL referem a base atual",
+      "aprovado": true,
+      "observado": "f2529c8660ff8df47664a2b850a6be7cfbcb5dcc44261dc781249fe5bf7530de",
+      "referencia": null
+    },
+    {
+      "controle": "Resposta 4854 e não resposta716",
+      "aprovado": true,
+      "observado": null,
+      "referencia": null
+    },
+    {
+      "controle": "Não respondentes mantêm ausentes todas medidas SINISA",
+      "aprovado": true,
+      "observado": null,
+      "referencia": null
+    },
+    {
+      "controle": "População SINISA e IBGE coincidem",
+      "aprovado": true,
+      "observado": null,
+      "referencia": null
+    },
+    {
+      "controle": "Soma população IBGE",
+      "aprovado": true,
+      "observado": 212583750.0,
+      "referencia": 212583750.0
+    },
+    {
+      "controle": "ibge_populacao_municipios_2024.csv chave/cobertura",
+      "aprovado": true,
+      "observado": null,
+      "referencia": null
+    },
+    {
+      "controle": "ibge_populacao_municipios_2024.csv: municipio",
+      "aprovado": true,
+      "observado": null,
+      "referencia": null
+    },
+    {
+      "controle": "ibge_populacao_municipios_2024.csv: uf",
+      "aprovado": true,
+      "observado": null,
+      "referencia": null
+    },
+    {
+      "controle": "ibge_populacao_municipios_2024.csv: ano",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 0.0
+      },
+      "referencia": null
+    },
+    {
+      "controle": "ibge_populacao_municipios_2024.csv: notas_ibge",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": null
+      },
+      "referencia": null
+    },
+    {
+      "controle": "ibge_populacao_municipios_2024.csv: versao_ibge",
+      "aprovado": true,
+      "observado": null,
+      "referencia": null
+    },
+    {
+      "controle": "rais_residuos_municipios_2024.csv chave/cobertura",
+      "aprovado": true,
+      "observado": null,
+      "referencia": null
+    },
+    {
+      "controle": "rais_residuos_municipios_2024.csv: ano",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 0.0
+      },
+      "referencia": null
+    },
+    {
+      "controle": "rais_residuos_municipios_2024.csv: vinculos_cnae38_3112",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 0.0
+      },
+      "referencia": null
+    },
+    {
+      "controle": "rais_residuos_municipios_2024.csv: vinculos_coleta_381_3112",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 0.0
+      },
+      "referencia": null
+    },
+    {
+      "controle": "rais_residuos_municipios_2024.csv: vinculos_tratamento_382_3112",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 0.0
+      },
+      "referencia": null
+    },
+    {
+      "controle": "rais_residuos_municipios_2024.csv: vinculos_recuperacao_383_3112",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 0.0
+      },
+      "referencia": null
+    },
+    {
+      "controle": "rais_residuos_municipios_2024.csv: estabelecimentos_cnae38_declarantes",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 0.0
+      },
+      "referencia": null
+    },
+    {
+      "controle": "rais_residuos_municipios_2024.csv: estabelecimentos_cnae38_com_vinculos_3112",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 0.0
+      },
+      "referencia": null
+    },
+    {
+      "controle": "rais_vinculos_totais_municipios_2024.csv chave/cobertura",
+      "aprovado": true,
+      "observado": null,
+      "referencia": null
+    },
+    {
+      "controle": "rais_vinculos_totais_municipios_2024.csv: ano",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 0.0
+      },
+      "referencia": null
+    },
+    {
+      "controle": "rais_vinculos_totais_municipios_2024.csv: vinculos_formais_totais_3112",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 0.0
+      },
+      "referencia": null
+    },
+    {
+      "controle": "Estoques RAIS completos, não negativos e inteiros",
+      "aprovado": true,
+      "observado": null,
+      "referencia": null
+    },
+    {
+      "controle": "CNAE38=soma381+382+383 por município",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 0.0
+      },
+      "referencia": null
+    },
+    {
+      "controle": "CNAE38 não excede emprego total",
+      "aprovado": true,
+      "observado": null,
+      "referencia": null
+    },
+    {
+      "controle": "Soma vinculos_cnae38_3112",
+      "aprovado": true,
+      "observado": 265143.0,
+      "referencia": 265143.0
+    },
+    {
+      "controle": "Soma vinculos_coleta_381_3112",
+      "aprovado": true,
+      "observado": 198344.0,
+      "referencia": 198344.0
+    },
+    {
+      "controle": "Soma vinculos_tratamento_382_3112",
+      "aprovado": true,
+      "observado": 23856.0,
+      "referencia": 23856.0
+    },
+    {
+      "controle": "Soma vinculos_recuperacao_383_3112",
+      "aprovado": true,
+      "observado": 42943.0,
+      "referencia": 42943.0
+    },
+    {
+      "controle": "Soma vinculos_formais_totais_3112",
+      "aprovado": true,
+      "observado": 57120312.0,
+      "referencia": 57120312.0
+    },
+    {
+      "controle": "Municípios CNAE38=zero",
+      "aprovado": true,
+      "observado": 3782.0,
+      "referencia": 3782.0
+    },
+    {
+      "controle": "Municípios383=zero",
+      "aprovado": true,
+      "observado": 4437.0,
+      "referencia": 4437.0
+    },
+    {
+      "controle": "Quatro alertas territoriais nos códigos esperados",
+      "aprovado": true,
+      "observado": [
+        "5106240",
+        "5106307",
+        "5107925",
+        "5108501"
+      ],
+      "referencia": null
+    },
+    {
+      "controle": "vinculos_residuos_por_1000_hab",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 7.105427357601002e-15
+      },
+      "referencia": null
+    },
+    {
+      "controle": "vinculos_recuperacao_383_por_1000_hab",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 7.105427357601002e-15
+      },
+      "referencia": null
+    },
+    {
+      "controle": "vinculos_formais_totais_por_1000_hab",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 2.2737367544323206e-13
+      },
+      "referencia": null
+    },
+    {
+      "controle": "Participação CNAE38 emprego formal",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 3.552713678800501e-15
+      },
+      "referencia": null
+    },
+    {
+      "controle": "DEX residente",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 0.0
+      },
+      "referencia": null
+    },
+    {
+      "controle": "DEX por tonelada",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 0.0
+      },
+      "referencia": null
+    },
+    {
+      "controle": "Recuperação calculada",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 1.4210854715202004e-14
+      },
+      "referencia": null
+    },
+    {
+      "controle": "Cobertura seletiva residente",
+      "aprovado": true,
+      "observado": {
+        "n": 5570,
+        "diferenca_maxima": 1.4210854715202004e-14
+      },
+      "referencia": null
+    },
+    {
+      "controle": "Alertas de massa correspondem aos 2 casos esperados",
+      "aprovado": true,
+      "observado": [
+        {
+          "cod_ibge": "3305133",
+          "municipio": "São José de Ubá",
+          "uf": "RJ"
+        },
+        {
+          "cod_ibge": "4207908",
+          "municipio": "Irineópolis",
+          "uf": "SC"
+        }
+      ],
+      "referencia": null
+    },
+    {
+      "controle": "Elegibilidade reproduzida pelas medidas originais",
+      "aprovado": true,
+      "observado": null,
+      "referencia": null
+    },
+    {
+      "controle": "n amostra principal",
+      "aprovado": true,
+      "observado": 4852.0,
+      "referencia": 4852.0
+    },
+    {
+      "controle": "Custo média base",
+      "aprovado": true,
+      "observado": 232.3474117330815,
+      "referencia": 232.3474117331
+    },
+    {
+      "controle": "Custo mediana base",
+      "aprovado": true,
+      "observado": 69.16614320618041,
+      "referencia": 69.1661432062
+    },
+    {
+      "controle": "Limite P1",
+      "aprovado": true,
+      "observado": 2.2401038640786908,
+      "referencia": 2.2401038640786908
+    },
+    {
+      "controle": "LimiteP99",
+      "aprovado": true,
+      "observado": 609.6611751794189,
+      "referencia": 609.6611751794189
+    },
+    {
+      "controle": "Sensibilidade base n",
+      "aprovado": true,
+      "observado": 4852.0,
+      "referencia": 4852.0
+    },
+    {
+      "controle": "Sensibilidade base custo_hab_media",
+      "aprovado": true,
+      "observado": 232.3474117330815,
+      "referencia": 232.3474117330815
+    },
+    {
+      "controle": "Sensibilidade base custo_hab_mediana",
+      "aprovado": true,
+      "observado": 69.16614320618041,
+      "referencia": 69.16614320618041
+    },
+    {
+      "controle": "Sensibilidade corte_p1_p99_hab n",
+      "aprovado": true,
+      "observado": 4754.0,
+      "referencia": 4754.0
+    },
+    {
+      "controle": "Sensibilidade corte_p1_p99_hab custo_hab_media",
+      "aprovado": true,
+      "observado": 88.71188899564652,
+      "referencia": 88.71188899564652
+    },
+    {
+      "controle": "Sensibilidade corte_p1_p99_hab custo_hab_mediana",
+      "aprovado": true,
+      "observado": 69.16614320618041,
+      "referencia": 69.16614320618041
+    },
+    {
+      "controle": "Sensibilidade recuperacao_positiva n",
+      "aprovado": true,
+      "observado": 1529.0,
+      "referencia": 1529.0
+    },
+    {
+      "controle": "Sensibilidade recuperacao_positiva custo_hab_media",
+      "aprovado": true,
+      "observado": 191.4900489378239,
+      "referencia": 191.4900489378239
+    },
+    {
+      "controle": "Sensibilidade recuperacao_positiva custo_hab_mediana",
+      "aprovado": true,
+      "observado": 91.82874294836239,
+      "referencia": 91.82874294836239
+    },
+    {
+      "controle": "Sensibilidade corte_e_recuperacao_positiva n",
+      "aprovado": true,
+      "observado": 1509.0,
+      "referencia": 1509.0
+    },
+    {
+      "controle": "Sensibilidade corte_e_recuperacao_positiva custo_hab_media",
+      "aprovado": true,
+      "observado": 105.36411606400517,
+      "referencia": 105.36411606400517
+    },
+    {
+      "controle": "Sensibilidade corte_e_recuperacao_positiva custo_hab_mediana",
+      "aprovado": true,
+      "observado": 91.36809384164222,
+      "referencia": 91.36809384164222
+    },
+    {
+      "controle": "Spearman cobertura/recuperação base",
+      "aprovado": true,
+      "observado": 0.8877297372714429,
+      "referencia": 0.8877297372714429
+    },
+    {
+      "controle": "Spearman cobertura/recuperação corte_p1_p99_hab",
+      "aprovado": true,
+      "observado": 0.8870183446611316,
+      "referencia": 0.8870183446611316
+    },
+    {
+      "controle": "Spearman cobertura/recuperação recuperacao_positiva",
+      "aprovado": true,
+      "observado": -0.055503963243755554,
+      "referencia": -0.055503963243755554
+    },
+    {
+      "controle": "Spearman cobertura/recuperação corte_e_recuperacao_positiva",
+      "aprovado": true,
+      "observado": -0.058928457631020253,
+      "referencia": -0.058928457631020253
+    },
+    {
+      "controle": "Recuperação zero",
+      "aprovado": true,
+      "observado": 3323.0,
+      "referencia": 3323.0
+    },
+    {
+      "controle": "Cobertura seletiva zero",
+      "aprovado": true,
+      "observado": 3438.0,
+      "referencia": 3438.0
+    },
+    {
+      "controle": "Razão somas recuperação",
+      "aprovado": true,
+      "observado": 2.163730057303046,
+      "referencia": 2.1637300573
+    },
+    {
+      "controle": "Amostra emprego",
+      "aprovado": true,
+      "observado": 4848.0,
+      "referencia": 4848.0
+    },
+    {
+      "controle": "Emprego rho vinculos_residuos_por_1000_hab todos_validos",
+      "aprovado": true,
+      "observado": 0.24338904438008493,
+      "referencia": 0.24338904438008527
+    },
+    {
+      "controle": "Emprego rho parcial vinculos_residuos_por_1000_hab todos_validos",
+      "aprovado": true,
+      "observado": 0.21497639666647983,
+      "referencia": 0.21497639666647983
+    },
+    {
+      "controle": "Emprego n vinculos_residuos_por_1000_hab todos_validos",
+      "aprovado": true,
+      "observado": 4848.0,
+      "referencia": 4848.0
+    },
+    {
+      "controle": "Emprego rho vinculos_residuos_por_1000_hab ambos_positivos",
+      "aprovado": true,
+      "observado": -0.03864139357309816,
+      "referencia": -0.03864139357309816
+    },
+    {
+      "controle": "Emprego rho parcial vinculos_residuos_por_1000_hab ambos_positivos",
+      "aprovado": true,
+      "observado": -0.0013063499516872256,
+      "referencia": -0.0013063499516872083
+    },
+    {
+      "controle": "Emprego n vinculos_residuos_por_1000_hab ambos_positivos",
+      "aprovado": true,
+      "observado": 811.0,
+      "referencia": 811.0
+    },
+    {
+      "controle": "Emprego rho vinculos_recuperacao_383_por_1000_hab todos_validos",
+      "aprovado": true,
+      "observado": 0.22773761878846424,
+      "referencia": 0.22773761878846446
+    },
+    {
+      "controle": "Emprego rho parcial vinculos_recuperacao_383_por_1000_hab todos_validos",
+      "aprovado": true,
+      "observado": 0.19758774186628708,
+      "referencia": 0.1975877418662871
+    },
+    {
+      "controle": "Emprego n vinculos_recuperacao_383_por_1000_hab todos_validos",
+      "aprovado": true,
+      "observado": 4848.0,
+      "referencia": 4848.0
+    },
+    {
+      "controle": "Emprego rho vinculos_recuperacao_383_por_1000_hab ambos_positivos",
+      "aprovado": true,
+      "observado": 0.21590989947154357,
+      "referencia": 0.21590989947154351
+    },
+    {
+      "controle": "Emprego rho parcial vinculos_recuperacao_383_por_1000_hab ambos_positivos",
+      "aprovado": true,
+      "observado": 0.05546551807807453,
+      "referencia": 0.05546551807807451
+    },
+    {
+      "controle": "Emprego n vinculos_recuperacao_383_por_1000_hab ambos_positivos",
+      "aprovado": true,
+      "observado": 584.0,
+      "referencia": 584.0
+    },
+    {
+      "controle": "OLS matriz coef base sel_10",
+      "aprovado": true,
+      "observado": 0.7959850131034358,
+      "referencia": 0.7959850131034223
+    },
+    {
+      "controle": "OLS matriz errocluster base sel_10",
+      "aprovado": true,
+      "observado": 0.11002455383084599,
+      "referencia": 0.11002455383084202
+    },
+    {
+      "controle": "OLS matriz ICinferior base sel_10",
+      "aprovado": true,
+      "observado": 0.5698263037305844,
+      "referencia": 0.569826303730579
+    },
+    {
+      "controle": "OLS matriz ICsuperior base sel_10",
+      "aprovado": true,
+      "observado": 1.0221437224762873,
+      "referencia": 1.0221437224762655
+    },
+    {
+      "controle": "OLS matriz coef base log_custo",
+      "aprovado": true,
+      "observado": -0.015966957844880315,
+      "referencia": -0.015966957844878338
+    },
+    {
+      "controle": "OLS matriz errocluster base log_custo",
+      "aprovado": true,
+      "observado": 0.06809688047751185,
+      "referencia": 0.06809688047751082
+    },
+    {
+      "controle": "OLS matriz ICinferior base log_custo",
+      "aprovado": true,
+      "observado": -0.15594210034615108,
+      "referencia": -0.155942100346147
+    },
+    {
+      "controle": "OLS matriz ICsuperior base log_custo",
+      "aprovado": true,
+      "observado": 0.12400818465639046,
+      "referencia": 0.12400818465639032
+    },
+    {
+      "controle": "OLS matriz coef recuperacao_positiva sel_10",
+      "aprovado": true,
+      "observado": -0.6130990859871123,
+      "referencia": -0.613099085987112
+    },
+    {
+      "controle": "OLS matriz errocluster recuperacao_positiva sel_10",
+      "aprovado": true,
+      "observado": 0.24054596830376115,
+      "referencia": 0.24054596830376196
+    },
+    {
+      "controle": "OLS matriz ICinferior recuperacao_positiva sel_10",
+      "aprovado": true,
+      "observado": -1.108512781418081,
+      "referencia": -1.1085127814180826
+    },
+    {
+      "controle": "OLS matriz ICsuperior recuperacao_positiva sel_10",
+      "aprovado": true,
+      "observado": -0.11768539055614341,
+      "referencia": -0.11768539055614152
+    },
+    {
+      "controle": "OLS matriz coef recuperacao_positiva log_custo",
+      "aprovado": true,
+      "observado": 0.11400655156626921,
+      "referencia": 0.11400655156627074
+    },
+    {
+      "controle": "OLS matriz errocluster recuperacao_positiva log_custo",
+      "aprovado": true,
+      "observado": 0.34378074216705595,
+      "referencia": 0.3437807421670552
+    },
+    {
+      "controle": "OLS matriz ICinferior recuperacao_positiva log_custo",
+      "aprovado": true,
+      "observado": -0.5940231406209238,
+      "referencia": -0.5940231406209207
+    },
+    {
+      "controle": "OLS matriz ICsuperior recuperacao_positiva log_custo",
+      "aprovado": true,
+      "observado": 0.8220362437534623,
+      "referencia": 0.8220362437534621
+    },
+    {
+      "controle": "Descritiva populacao_ibge_2024 count",
+      "aprovado": true,
+      "observado": 4852.0,
+      "referencia": 4852.0
+    },
+    {
+      "controle": "Descritiva populacao_ibge_2024 mean",
+      "aprovado": true,
+      "observado": 41445.31801319044,
+      "referencia": 41445.31801319044
+    },
+    {
+      "controle": "Descritiva populacao_ibge_2024 std",
+      "aprovado": true,
+      "observado": 232364.95155112725,
+      "referencia": 232364.95155112725
+    },
+    {
+      "controle": "Descritiva populacao_ibge_2024 min",
+      "aprovado": true,
+      "observado": 854.0,
+      "referencia": 854.0
+    },
+    {
+      "controle": "Descritiva populacao_ibge_2024 25%",
+      "aprovado": true,
+      "observado": 5221.5,
+      "referencia": 5221.5
+    },
+    {
+      "controle": "Descritiva populacao_ibge_2024 50%",
+      "aprovado": true,
+      "observado": 11412.5,
+      "referencia": 11412.5
+    },
+    {
+      "controle": "Descritiva populacao_ibge_2024 75%",
+      "aprovado": true,
+      "observado": 26725.0,
+      "referencia": 26725.0
+    },
+    {
+      "controle": "Descritiva populacao_ibge_2024 max",
+      "aprovado": true,
+      "observado": 11895578.0,
+      "referencia": 11895578.0
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_hab_ibge2024 count",
+      "aprovado": true,
+      "observado": 4852.0,
+      "referencia": 4852.0
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_hab_ibge2024 mean",
+      "aprovado": true,
+      "observado": 232.3474117330815,
+      "referencia": 232.3474117330815
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_hab_ibge2024 std",
+      "aprovado": true,
+      "observado": 3230.527553120316,
+      "referencia": 3230.527553120316
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_hab_ibge2024 min",
+      "aprovado": true,
+      "observado": 0.08055347839038951,
+      "referencia": 0.0805534783903895
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_hab_ibge2024 25%",
+      "aprovado": true,
+      "observado": 31.34648633731887,
+      "referencia": 31.34648633731887
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_hab_ibge2024 50%",
+      "aprovado": true,
+      "observado": 69.16614320618041,
+      "referencia": 69.16614320618041
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_hab_ibge2024 75%",
+      "aprovado": true,
+      "observado": 121.58109221632016,
+      "referencia": 121.58109221632016
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_hab_ibge2024 max",
+      "aprovado": true,
+      "observado": 121860.46511627907,
+      "referencia": 121860.46511627908
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_t_rsu count",
+      "aprovado": true,
+      "observado": 4852.0,
+      "referencia": 4852.0
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_t_rsu mean",
+      "aprovado": true,
+      "observado": 915.4139929150355,
+      "referencia": 915.4139929150355
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_t_rsu std",
+      "aprovado": true,
+      "observado": 12459.914590785229,
+      "referencia": 12459.914590785229
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_t_rsu min",
+      "aprovado": true,
+      "observado": 0.15142857142857144,
+      "referencia": 0.1514285714285714
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_t_rsu 25%",
+      "aprovado": true,
+      "observado": 109.23231039726085,
+      "referencia": 109.23231039726085
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_t_rsu 50%",
+      "aprovado": true,
+      "observado": 262.0456132181344,
+      "referencia": 262.0456132181344
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_t_rsu 75%",
+      "aprovado": true,
+      "observado": 512.032860418028,
+      "referencia": 512.032860418028
+    },
+    {
+      "controle": "Descritiva despesa_manejo_por_t_rsu max",
+      "aprovado": true,
+      "observado": 554078.5498489426,
+      "referencia": 554078.5498489426
+    },
+    {
+      "controle": "Descritiva recuperacao_total_calculada_pct count",
+      "aprovado": true,
+      "observado": 4852.0,
+      "referencia": 4852.0
+    },
+    {
+      "controle": "Descritiva recuperacao_total_calculada_pct mean",
+      "aprovado": true,
+      "observado": 2.8081744998464977,
+      "referencia": 2.808174499846498
+    },
+    {
+      "controle": "Descritiva recuperacao_total_calculada_pct std",
+      "aprovado": true,
+      "observado": 7.41402051907996,
+      "referencia": 7.41402051907996
+    },
+    {
+      "controle": "Descritiva recuperacao_total_calculada_pct min",
+      "aprovado": true,
+      "observado": 0.0,
+      "referencia": 0.0
+    },
+    {
+      "controle": "Descritiva recuperacao_total_calculada_pct 25%",
+      "aprovado": true,
+      "observado": 0.0,
+      "referencia": 0.0
+    },
+    {
+      "controle": "Descritiva recuperacao_total_calculada_pct 50%",
+      "aprovado": true,
+      "observado": 0.0,
+      "referencia": 0.0
+    },
+    {
+      "controle": "Descritiva recuperacao_total_calculada_pct 75%",
+      "aprovado": true,
+      "observado": 1.3900212731142103,
+      "referencia": 1.39002127311421
+    },
+    {
+      "controle": "Descritiva recuperacao_total_calculada_pct max",
+      "aprovado": true,
+      "observado": 99.7340425531915,
+      "referencia": 99.7340425531915
+    },
+    {
+      "controle": "Descritiva cobertura_seletiva_sinisa_oficial_pct count",
+      "aprovado": true,
+      "observado": 4852.0,
+      "referencia": 4852.0
+    },
+    {
+      "controle": "Descritiva cobertura_seletiva_sinisa_oficial_pct mean",
+      "aprovado": true,
+      "observado": 20.80256595218467,
+      "referencia": 20.80256595218467
+    },
+    {
+      "controle": "Descritiva cobertura_seletiva_sinisa_oficial_pct std",
+      "aprovado": true,
+      "observado": 35.930441324899995,
+      "referencia": 35.930441324899995
+    },
+    {
+      "controle": "Descritiva cobertura_seletiva_sinisa_oficial_pct min",
+      "aprovado": true,
+      "observado": 0.0,
+      "referencia": 0.0
+    },
+    {
+      "controle": "Descritiva cobertura_seletiva_sinisa_oficial_pct 25%",
+      "aprovado": true,
+      "observado": 0.0,
+      "referencia": 0.0
+    },
+    {
+      "controle": "Descritiva cobertura_seletiva_sinisa_oficial_pct 50%",
+      "aprovado": true,
+      "observado": 0.0,
+      "referencia": 0.0
+    },
+    {
+      "controle": "Descritiva cobertura_seletiva_sinisa_oficial_pct 75%",
+      "aprovado": true,
+      "observado": 33.8575,
+      "referencia": 33.8575
+    },
+    {
+      "controle": "Descritiva cobertura_seletiva_sinisa_oficial_pct max",
+      "aprovado": true,
+      "observado": 100.0,
+      "referencia": 100.0
+    },
+    {
+      "controle": "Descritiva vinculos_formais_totais_por_1000_hab count",
+      "aprovado": true,
+      "observado": 4848.0,
+      "referencia": 4848.0
+    },
+    {
+      "controle": "Descritiva vinculos_formais_totais_por_1000_hab mean",
+      "aprovado": true,
+      "observado": 178.74574228854365,
+      "referencia": 178.74574228854365
+    },
+    {
+      "controle": "Descritiva vinculos_formais_totais_por_1000_hab std",
+      "aprovado": true,
+      "observado": 111.5245856938605,
+      "referencia": 111.52458569386052
+    },
+    {
+      "controle": "Descritiva vinculos_formais_totais_por_1000_hab min",
+      "aprovado": true,
+      "observado": 3.3656894785620213,
+      "referencia": 3.3656894785620213
+    },
+    {
+      "controle": "Descritiva vinculos_formais_totais_por_1000_hab 25%",
+      "aprovado": true,
+      "observado": 96.61710455896734,
+      "referencia": 96.61710455896733
+    },
+    {
+      "controle": "Descritiva vinculos_formais_totais_por_1000_hab 50%",
+      "aprovado": true,
+      "observado": 156.81491013340587,
+      "referencia": 156.81491013340587
+    },
+    {
+      "controle": "Descritiva vinculos_formais_totais_por_1000_hab 75%",
+      "aprovado": true,
+      "observado": 232.83023475553296,
+      "referencia": 232.83023475553298
+    },
+    {
+      "controle": "Descritiva vinculos_formais_totais_por_1000_hab max",
+      "aprovado": true,
+      "observado": 1266.1637931034481,
+      "referencia": 1266.163793103448
+    }
+  ],
+  "correlacoes_cobertura": [
+    {
+      "amostra": "base",
+      "n": 4852,
+      "rho": 0.8877297372714429,
+      "x": "cobertura_seletiva_ibge2024_pct",
+      "y": "recuperacao_total_calculada_pct"
+    },
+    {
+      "amostra": "corte_p1_p99_hab",
+      "n": 4754,
+      "rho": 0.8870183446611316,
+      "x": "cobertura_seletiva_ibge2024_pct",
+      "y": "recuperacao_total_calculada_pct"
+    },
+    {
+      "amostra": "recuperacao_positiva",
+      "n": 1529,
+      "rho": -0.055503963243755554,
+      "x": "cobertura_seletiva_ibge2024_pct",
+      "y": "recuperacao_total_calculada_pct"
+    },
+    {
+      "amostra": "corte_e_recuperacao_positiva",
+      "n": 1509,
+      "rho": -0.058928457631020253,
+      "x": "cobertura_seletiva_ibge2024_pct",
+      "y": "recuperacao_total_calculada_pct"
+    }
+  ],
+  "correlacoes_emprego": [
+    {
+      "variavel": "vinculos_residuos_por_1000_hab",
+      "amostra": "todos_validos",
+      "n": 4848,
+      "rho": 0.24338904438008493,
+      "rho_parcial_porte": 0.21497639666647983
+    },
+    {
+      "variavel": "vinculos_residuos_por_1000_hab",
+      "amostra": "ambos_positivos",
+      "n": 811,
+      "rho": -0.03864139357309816,
+      "rho_parcial_porte": -0.0013063499516872256
+    },
+    {
+      "variavel": "vinculos_recuperacao_383_por_1000_hab",
+      "amostra": "todos_validos",
+      "n": 4848,
+      "rho": 0.22773761878846424,
+      "rho_parcial_porte": 0.19758774186628708
+    },
+    {
+      "variavel": "vinculos_recuperacao_383_por_1000_hab",
+      "amostra": "ambos_positivos",
+      "n": 584,
+      "rho": 0.21590989947154357,
+      "rho_parcial_porte": 0.05546551807807453
+    }
+  ],
+  "ols_principal_matriz_independente": [
+    {
+      "amostra": "base",
+      "n": 4852,
+      "coef_cobertura_10pp": 0.7959850131034358,
+      "dobro_despesa_associacao_pp": -0.01106745181229829,
+      "ajustados_fora_0_100": 833,
+      "graus_liberdade_ic": 26.0
+    },
+    {
+      "amostra": "recuperacao_positiva",
+      "n": 1529,
+      "coef_cobertura_10pp": -0.6130990859871123,
+      "dobro_despesa_associacao_pp": 0.07902331978352152,
+      "ajustados_fora_0_100": 57,
+      "graus_liberdade_ic": 25.0
+    }
+  ],
+  "revisao_conceitual": [
+    "Custo usa toda DEX de manejo e habitante residente IBGE; custo oficial por coberto continua separado.",
+    "Diagnóstico de cobertura usa razões calculadas, sem arredondamento; estudo de emprego usa recuperação oficial SINISA.",
+    "Zeros setoriais RAIS mantidos após reconciliação do universo; informalidade e CNAE principal impedem chamar o estoque de empregos verdes certificados.",
+    "Amostras positivas mudam a seleção e a pergunta; associação e OLS não constituem estimativa causal ou previsão de política.",
+    "Razões agregadas de somas são apenas do conjunto observado, não uma extrapolação nacional."
+  ],
+  "descritivas_revisadas_em_utc": "2026-11-21T19:52:32.356046+00:00"
+}

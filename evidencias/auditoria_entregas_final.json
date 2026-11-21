@@ -1,0 +1,46 @@
+{
+  "executado_em_utc": "2026-11-21T19:56:58.259929+00:00",
+  "originais_lidos": [
+    "evidencias/Enunciado_A3.pdf:6 páginas",
+    "evidencias/Checklist_projetoA3.html:itens1–20"
+  ],
+  "sha256_edital": "c1e7d3eb51479fb8a7e2b3468f6217ead39eb4b9c6b67e274459e60193cf5ddc",
+  "relatorio_paginas": 16,
+  "sha256_relatorio": "f74fc70ba0e721a5b5a6577ba552f6e066fa045c23d802aa445699eb122ab469",
+  "requisitos_materiais_omitidos": [],
+  "escopo_confirmado": {
+    "fontes_minimas": 3,
+    "colunas_minimas": 6,
+    "predicao": "opcional, dispensada pelo grupo",
+    "ABNT_estrita": "não exigida",
+    "slides": "solicitados pelo usuário, sem obrigatoriedade adicional nos anexos",
+    "video": "obrigatório, YouTube, duração máxima7min"
+  },
+  "conteudos_conferidos": [
+    "apresentação/problema/objetivos",
+    "fontes oficiais e compatibilidade2024",
+    "ETL e decisões",
+    "EDA/estatísticas e figuras",
+    "diagnóstico e limites de causalidade",
+    "prescrições e riscos",
+    "referências e links",
+    "H1–H3 e novas perguntas"
+  ],
+  "t13": "consolidação documentada em docs/HIPOTESES_E_QUESTOES.md e seção11.1 do relatório",
+  "encerraveis_apos_auditoria_dados": [
+    "t12 revisão diagnóstica",
+    "t13 hipóteses/perguntas",
+    "t15 prescrições",
+    "t19 revisão técnica"
+  ],
+  "pendencias_reais": {
+    "t1": "nomes e composição3–5 ou configuração já aprovada pelo professor",
+    "t16": "conteúdo técnico encerrado; identificação nominal pendente",
+    "t18": "gravação do grupo, edição, conferência de até7min e publicaçãoYouTube",
+    "t20": "link do vídeo no repositório e envio final do link à disciplina"
+  },
+  "observacao": "Não há necessidade de exigir uma aprovação humana adicional para encerrar a revisão técnica executada. Conferir o conteúdo e conhecer a apresentação continuam úteis ao domínio do tema, sem criar nova entrega.",
+  "sha256_checklist_html": "4243d26fa77098767fb26f30668ecd4a3b19e5ebf9c3ca2bdd20e7a1e0b65f6c",
+  "checklist_html_itens_conferidos": 20,
+  "checklist_csv_confere_com_original": true
+}

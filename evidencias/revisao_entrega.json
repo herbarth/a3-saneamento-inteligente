@@ -26,12 +26,20 @@
   "video": "roteiro preparado para o grupo gravar a própria fala; gravação, edição e publicação pendentes",
   "dashboard_funcional": "9 cenários AppTest aprovados",
   "dashboard_visual_e_publicacao": "publicado e validado em https://a3-saneamento-inteligente-brasil.streamlit.app/; cinco abas, filtro BA, download e acesso sem credenciais conferidos; visual final aprovado",
-  "sha256_pdf": "ddd8771809b1c0923e6c9fb0a7b6403315a34184c95d26bdc124db15b3d9f224",
+  "sha256_pdf": "f74fc70ba0e721a5b5a6577ba552f6e066fa045c23d802aa445699eb122ab469",
   "github": "https://github.com/herbarth/a3-saneamento-inteligente",
   "qa_pdf_publicacao": "evidencias/revisao_pdf_publicacao.json",
   "roteiro_palavras_faladas": 671,
   "roteiro_disponibilizacao": "entregue separadamente ao grupo; não incluir no GitHub",
   "planilha_excel": "planilhas/Planilha_A3_Saneamento_Inteligente.xlsx",
   "planilha_excel_validacao": "evidencias/validacao_planilha_excel.json",
-  "planilha_excel_sha256": "6fae3df18d8087fe3bd1ddbfbe463ec130d6074fe3d5ed6d600b24b0565eb96d"
+  "planilha_excel_sha256": "6fae3df18d8087fe3bd1ddbfbe463ec130d6074fe3d5ed6d600b24b0565eb96d",
+  "qa_pdf_final": "evidencias/revisao_pdf_final.json",
+  "revisao_final_tecnica": "evidencias/revisao_final_tecnica.json",
+  "controle_numerico_final": "148 de 148 controles independentes aprovados",
+  "pendencias": [
+    "Nomes completos e composição da equipe ainda não informados.",
+    "Gravação, edição e publicação do vídeo do grupo, com conferência do limite de sete minutos.",
+    "Inserir o link YouTube final no repositório após a publicação."
+  ]
 }

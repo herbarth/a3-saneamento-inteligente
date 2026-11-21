@@ -21,13 +21,13 @@ def code(text):
         exec(compile(text, f"notebook_cell_{count}", "exec"), env)
     cells.append({"cell_type": "code", "execution_count": count, "metadata": {}, "source": text.splitlines(True), "outputs": [{"output_type": "stream", "name": "stdout", "text": stream.getvalue().splitlines(True)}]})
 
-md("""# A3 — Saneamento Inteligente: primeira execução
+md("""# A3 — Saneamento Inteligente: inspeção da base integrada
 
-**Base parcial, referência 2024.** Este notebook inspeciona os arquivos realmente produzidos pelo ETL. Não representa a conclusão da A3.
+**Base integrada, referência 2024.** Este notebook reúne a inspeção dos dados, validações e descritivas iniciais. O diagnóstico, as hipóteses e as prescrições estão consolidados no relatório e nas análises do projeto.
 
-O tema foi informado como aprovado pelo professor. O edital e o checklist originais estão em `evidencias/`; os requisitos conferidos estão em `docs/REQUISITOS_VERIFICADOS.md`.
+O tema foi informado como aprovado pelo professor. Os requisitos conferidos estão em `docs/REQUISITOS_VERIFICADOS.md`; os anexos originais foram preservados no pacote local.
 
-Para reproduzir da raiz do projeto: `python scripts/preparar_dados.py` e `python scripts/eda_inicial.py`. A opção `--download` do primeiro script busca os arquivos oficiais de SINISA e IBGE. A etapa RAIS deve seguir seu script e sua nota de cobertura.
+Para reproduzir da raiz do projeto: `python scripts/preparar_dados.py --download` e `python scripts/eda_inicial.py`. A opção `--download` busca os arquivos oficiais SINISA, IBGE e as tabelas RAIS. O agregado setorial RAIS validado acompanha o projeto; para reler seus microdados, use também `--reprocessar-setorial`, conforme `docs/RAIS_SETORIAL.md`.
 
 Não é necessário abrir as planilhas manualmente nem alterar seus cabeçalhos.
 """)
@@ -98,7 +98,7 @@ md("""![Gráficos preliminares](../analises/eda_preliminar.png)
 
 O histograma e a dispersão usam escala log para tornar a distribuição legível. O box plot oculta somente a exibição de pontos extremos; eles permanecem no dataset. Os gráficos e as tabelas são gerados por `scripts/eda_inicial.py`.
 
-## 5. Questões a investigar
+## 5. Questões examinadas e continuidade
 
 - A diferença de despesas permanece quando comparamos portes e regiões semelhantes?
 - Os maiores valores são explicados por escopo dos serviços, distâncias, erros ou condições locais?
@@ -113,7 +113,7 @@ Correlação não demonstra causalidade. Um único ano não permite afirmar tend
 - [IBGE — arquivos 2024](https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/)
 - [MTE — RAIS 2024](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais/rais-2024)
 
-Consulte o inventário de fontes, os dicionários e o registro de metodologia em `docs/`. Consulte `evidencias/validacoes_etl.json` para a execução efetiva. O diagnóstico, as prescrições e os materiais de apresentação estão nas pastas próprias do projeto. Publicação online e links finais devem ser conferidos no acompanhamento da A3.
+Consulte o inventário de fontes, os dicionários e o registro de metodologia em `docs/`. Consulte `evidencias/validacoes_etl.json` para a execução efetiva. O diagnóstico, as prescrições e os materiais de apresentação estão nas pastas próprias do projeto. Os resultados das hipóteses estão em `docs/HIPOTESES_E_QUESTOES.md`. O [painel online](https://a3-saneamento-inteligente-brasil.streamlit.app/) e o [repositório](https://github.com/herbarth/a3-saneamento-inteligente) foram publicados e validados. Identificação dos integrantes e vídeo final permanecem pendentes no acompanhamento da A3.
 """)
 
 notebook = {"cells": cells, "metadata": {"kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"}, "language_info": {"name": "python", "version": "3.12"}}, "nbformat": 4, "nbformat_minor": 5}

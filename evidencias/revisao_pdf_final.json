@@ -1,0 +1,54 @@
+{
+  "paginas_antes": 16,
+  "paginas_depois": 16,
+  "paginas_com_pixels_alterados": [
+    3,
+    6,
+    8,
+    10,
+    12,
+    14
+  ],
+  "paginas_identicas_ao_pdf_anterior": [
+    1,
+    2,
+    4,
+    5,
+    7,
+    9,
+    11,
+    13,
+    15,
+    16
+  ],
+  "sha256_pdf": "f74fc70ba0e721a5b5a6577ba552f6e066fa045c23d802aa445699eb122ab469",
+  "sha256_dataset": "f2529c8660ff8df47664a2b850a6be7cfbcb5dcc44261dc781249fe5bf7530de",
+  "sintese_hipoteses_presente": true,
+  "denominador_explicito": true,
+  "ressalva_mediana_presente": true,
+  "links_publicos_clicaveis": true,
+  "pendencia_identificacao": true,
+  "metodo": "Todas as16 páginas antes/depois renderizadas a100dpi e comparadas pixel a pixel; páginas3,6,8,10,12,14 inspecionadas visualmente; demais10 idênticas ao PDF anteriormente aprovado.",
+  "executado_em_utc": "2026-11-21T19:56:58.258925+00:00",
+  "arquivo": "relatorios/Relatorio_A3_Saneamento_Inteligente.pdf",
+  "paginas_revisadas_visualmente": [
+    3,
+    6,
+    8,
+    10,
+    12,
+    14
+  ],
+  "resultado_visual": "aprovado: sem cortes, sobreposições, tabelas partidas ou texto fora das margens",
+  "alteracoes": [
+    "Denominador da cobertura seletiva explicitado como população IBGE DOU2024, compatível comDFE0001",
+    "Razões recalculadas no diagnóstico distinguidas dos indicadores oficiais usados no painel/estudo de emprego",
+    "Ressalva sobre mediana após corte simétrico",
+    "Síntese H1–H3 e novas questões de pesquisa na conclusão"
+  ],
+  "alteracao_dados_analises": false,
+  "pendencias_humanas": [
+    "Nomes completos e composição da equipe",
+    "Gravação da própria fala pelo grupo; vídeo, edição/publicação e link ainda pendentes"
+  ]
+}

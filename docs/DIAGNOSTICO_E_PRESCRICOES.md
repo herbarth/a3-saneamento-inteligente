@@ -1,4 +1,4 @@
-# Diagnóstico e prescrições preliminares
+# Diagnóstico e prescrições
 
 ## O que os dados sustentam agora
 

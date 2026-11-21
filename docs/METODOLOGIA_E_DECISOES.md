@@ -1,6 +1,6 @@
 # Registro de metodologia e decisões — execução e consolidação
 
-Data de trabalho: 20/11/2026, horário de Brasília. Horários automáticos nos registros técnicos estão em UTC.
+Coleta e primeira execução: 20/11/2026. Revisão técnica final: 21/11/2026, horário de Brasília. Horários automáticos nos registros técnicos estão em UTC.
 
 ## Pergunta e recorte
 
@@ -30,7 +30,7 @@ A própria planilha RAIS tem 13 linhas em que o Total 2024 difere da soma de cin
 | Despesa de manejo por tonelada RSU | GFI2221 / GTR1028 | Razão analítica do manejo como um todo pela massa coletada. Não é tarifa nem custo marginal de coleta; avaliar escopo dos serviços antes de comparar. |
 | Recuperação total | 100 × GTR1029 / GTR1028 | Inclui secos e orgânicos conforme definição SINISA. A parcela orgânica usa massa de rota de coleta, não rendimento efetivo após compostagem. |
 | Cobertura seletiva | 100 × GTR0205 / população IBGE | Cobertura declarada com frequência mínima semanal, não percentual de massa reciclada. |
-| Vínculos setoriais por mil habitantes | 1.000 × estoque ativo RAIS setorial / população IBGE | A calcular quando a extração municipal por atividade estiver validada. É estoque de vínculos, não pessoas únicas, vagas ou criação anual de empregos. |
+| Vínculos setoriais por mil habitantes | 1.000 × estoque ativo RAIS setorial / população IBGE | Calculado após a extração municipal validada. Razões ficam ausentes nos quatro municípios com incompatibilidade territorial. É estoque de vínculos, não pessoas únicas, vagas ou criação anual de empregos. |
 
 Os indicadores oficiais SINISA são preservados em colunas com sufixo `sinisa_oficial`; os recalculados têm nomes próprios. Só há divisão quando o denominador é estritamente positivo. Não produzimos infinito e não limitamos percentuais artificialmente a 100%.
 
@@ -63,6 +63,10 @@ Os alertas iniciais não certificam todos os demais valores: despesas extremamen
 - Coleta seletiva e automação exigem investimento, podem ampliar custos ou deslocar trabalhadores e dependem do mercado de materiais. Esses efeitos são questões a investigar, não resultados demonstrados por esta base inicial.
 - Não estimamos geração futura de empregos, economia causal, retorno de investimento ou redução de emissões nesta etapa.
 
-## Próximas entregas e critério de conclusão
+## Revisão técnica e conclusão das entregas
 
-As três fontes, inclusive o recorte setorial da RAIS, foram integradas. EDA, diagnóstico com sensibilidades e prescrições foram executados; relatório e apresentação estão em revisão. O dashboard passou por testes funcionais locais. Restam a publicação e validação dos links GitHub e Streamlit, a identificação completa do grupo e, por último, o vídeo de até sete minutos. A análise preditiva opcional foi dispensada por decisão do usuário. Edital e checklist são as referências obrigatórias; a aparência acadêmica não implica exigências adicionais de TCC.
+As três fontes, inclusive o recorte setorial da RAIS, foram integradas. A revisão independente conferiu a base, estatísticas, amostras, correlações e resultados principais. Os controles, o alcance da revisão e as limitações estão em `evidencias/revisao_final_tecnica.json`. Hipóteses, resultados observacionais e perguntas futuras estão consolidados em `docs/HIPOTESES_E_QUESTOES.md`.
+
+O relatório reúne apresentação do projeto, ETL, EDA, diagnóstico e prescrições. A planilha Excel foi confrontada com a base processada. O notebook mantém as saídas executadas. O dashboard e o repositório público foram publicados e seus endereços validados. O estudo não acrescenta previsão de empregos ou de economia de custos.
+
+As pendências da entrega são a identificação completa dos integrantes e a gravação, edição e publicação do vídeo no YouTube, com duração até sete minutos. Depois da publicação, seu link precisa ser incluído no repositório. O roteiro foi entregue diretamente ao grupo e permanece fora do projeto público. A análise preditiva opcional foi dispensada. Edital e checklist são as referências obrigatórias; não foram acrescentadas exigências de TCC ou do manual acadêmico.

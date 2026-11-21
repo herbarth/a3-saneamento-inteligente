@@ -1,0 +1,19 @@
+{
+  "verificado_em_utc": "2026-11-21T19:51:19.205795+00:00",
+  "metodo": "GET com sessões novas sem credenciais; cookies de navegação limitados a cada verificação",
+  "resultados": {
+    "dashboard": {
+      "status_http": 200,
+      "url_final": "https://a3-saneamento-inteligente-brasil.streamlit.app/",
+      "bytes_recebidos": 9782,
+      "sessao_nova_sem_credenciais": true
+    },
+    "github": {
+      "status_http": 200,
+      "url_final": "https://github.com/herbarth/a3-saneamento-inteligente",
+      "bytes_recebidos": 245927,
+      "sessao_nova_sem_credenciais": true
+    }
+  },
+  "escopo": "acesso público aos endereços; interações e download verificados separadamente em testes_publicacao_streamlit.json"
+}
