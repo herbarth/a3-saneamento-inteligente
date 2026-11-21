@@ -1,5 +1,5 @@
 {
-  "executado_em_utc": "2026-11-21T02:34:01.000497+00:00",
+  "executado_em_utc": "2026-11-21T03:00:33.112662+00:00",
   "metodo": "streamlit.testing.v1.AppTest; CSV real; sem publicação",
   "versoes": {
     "streamlit": "1.67.0",

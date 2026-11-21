@@ -105,7 +105,7 @@ st.set_page_config(page_title="Saneamento Inteligente | A3 UNIFACS", page_icon="
 st.markdown("""
 <style>
 .stApp {background: #f6f9fb;}
-.block-container {padding-top: 2rem; padding-bottom: 3rem; max-width: 1440px;}
+.block-container {padding-top: 4rem; padding-bottom: 3rem; max-width: 1440px;}
 [data-testid="stMetric"] {background: white; border: 1px solid #dfe9ef; border-radius: 12px; padding: 15px 18px;}
 [data-testid="stMetricValue"] {color: #143b63;}
 [data-testid="stSidebar"] {background: #eef4f7;}
@@ -127,14 +127,14 @@ except (ValueError, OSError) as exc:
 with st.sidebar:
     st.markdown("### Seu recorte de análise")
     st.caption("Referência 2024 • município")
-    regions = st.multiselect("Regiões", sorted(data["regiao"].dropna().unique()), key="regions")
+    regions = st.multiselect("Regiões", sorted(data["regiao"].dropna().unique()), key="regions", placeholder="Todas as regiões")
     filtered = data[data["regiao"].isin(regions)].copy() if regions else data.copy()
-    ufs = st.multiselect("Estados", sorted(filtered["uf"].dropna().unique()), key="ufs")
+    ufs = st.multiselect("Estados", sorted(filtered["uf"].dropna().unique()), key="ufs", placeholder="Todos os estados")
     if ufs:
         filtered = filtered[filtered["uf"].isin(ufs)].copy()
     actual_portes = filtered["porte_populacional"].dropna().unique().tolist()
     ordered_portes = [p for p in PORTES if p in actual_portes] + sorted(set(actual_portes) - set(PORTES))
-    portes = st.multiselect("Porte populacional", ordered_portes, key="portes")
+    portes = st.multiselect("Porte populacional", ordered_portes, key="portes", placeholder="Todos os portes")
     if portes:
         filtered = filtered[filtered["porte_populacional"].isin(portes)].copy()
     localities = filtered[["cod_ibge", "municipio", "uf"]].sort_values(["municipio", "uf"])
@@ -150,7 +150,7 @@ with st.sidebar:
 st.markdown('<div class="eyebrow">UNIFACS · ANÁLISE DE DADOS E BIG DATA · A3</div>', unsafe_allow_html=True)
 st.title("Saneamento Inteligente")
 st.markdown('<p class="intro">Custos de manejo de resíduos, recuperação de materiais e contexto do emprego formal nos municípios brasileiros.</p>', unsafe_allow_html=True)
-st.caption("Base parcial · SINISA 2025, referência 2024 · IBGE 2024 · RAIS 2024")
+st.caption("Base integrada · SINISA 2025, referência 2024 · IBGE 2024 · RAIS 2024")
 st.info("Este painel compara registros declarados. Diferenças de gasto podem refletir cobertura, porte, distâncias e qualidade do serviço; os gráficos, isoladamente, não demonstram economia causal ou eficiência.")
 
 if filtered.empty:
