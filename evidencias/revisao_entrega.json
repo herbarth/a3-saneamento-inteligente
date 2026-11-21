@@ -30,5 +30,8 @@
   "github": "https://github.com/herbarth/a3-saneamento-inteligente",
   "qa_pdf_publicacao": "evidencias/revisao_pdf_publicacao.json",
   "roteiro_palavras_faladas": 671,
-  "roteiro_disponibilizacao": "entregue separadamente ao grupo; não incluir no GitHub"
+  "roteiro_disponibilizacao": "entregue separadamente ao grupo; não incluir no GitHub",
+  "planilha_excel": "planilhas/Planilha_A3_Saneamento_Inteligente.xlsx",
+  "planilha_excel_validacao": "evidencias/validacao_planilha_excel.json",
+  "planilha_excel_sha256": "6fae3df18d8087fe3bd1ddbfbe463ec130d6074fe3d5ed6d600b24b0565eb96d"
 }

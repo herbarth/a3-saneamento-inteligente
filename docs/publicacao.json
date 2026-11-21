@@ -14,5 +14,8 @@
   "roteiro_palavras_faladas": 671,
   "roteiro_tempo_meta": "6min20s; estimativa de montagem, não duração de vídeo gravado",
   "roteiro_preparado": true,
-  "roteiro_disponibilizacao": "enviado diretamente ao grupo, fora do repositório"
+  "roteiro_disponibilizacao": "enviado diretamente ao grupo, fora do repositório",
+  "planilha_excel": "planilhas/Planilha_A3_Saneamento_Inteligente.xlsx",
+  "planilha_excel_status": "validada: cinco abas, valores comparados, fórmulas, filtros, congelamento e renderizações verificados",
+  "planilha_excel_sha256": "6fae3df18d8087fe3bd1ddbfbe463ec130d6074fe3d5ed6d600b24b0565eb96d"
 }

@@ -10,6 +10,7 @@ Referência dos dados: 2024 · Versão de trabalho: 20/11/2026
 
 - **Repositório:** https://github.com/herbarth/a3-saneamento-inteligente
 - **Dashboard online:** https://a3-saneamento-inteligente-brasil.streamlit.app/
+- **Planilha Excel:** [abrir a planilha com cinco abas](planilhas/Planilha_A3_Saneamento_Inteligente.xlsx)
 - **Vídeo:** gravação e publicação pendentes; o link final será incluído após a conferência.
 
 Esta é uma versão para revisão do grupo. A identificação dos integrantes e a conferência final das entregas permanecem pendentes.
@@ -27,6 +28,7 @@ Os custos declarados têm valores extremos que exigem auditoria. A análise usa 
 | Arquivo ou pasta | Conteúdo |
 |---|---|
 | `relatorios/Relatorio_A3_Saneamento_Inteligente.pdf` | Relatório acadêmico formal, com apresentação, ETL, EDA, diagnóstico e prescrições |
+| `planilhas/Planilha_A3_Saneamento_Inteligente.xlsx` | Excel com resumo, despesas por porte, emprego por UF, base completa e dicionário/fontes |
 | `data/processed/saneamento_municipios_2024_parcial.csv` | Base integrada de 5.570 × 56, com alertas preservados |
 | `app.py` | Dashboard Streamlit com cinco abas, filtros e exportação CSV |
 | `notebooks/01_primeira_execucao.ipynb` | Notebook didático com saídas executadas |
