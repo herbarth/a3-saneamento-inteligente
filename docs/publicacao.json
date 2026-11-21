@@ -11,7 +11,8 @@
   "video_status": "roteiro para gravação pelo grupo preparado; gravação, edição e publicação no YouTube pendentes",
   "dashboard_validado_em_utc": "2026-11-21T03:03:37.633569+00:00",
   "dashboard_evidencias": "evidencias/testes_publicacao_streamlit.json",
-  "roteiro_video": "docs/Roteiro_Video_A3.txt",
   "roteiro_palavras_faladas": 671,
-  "roteiro_tempo_meta": "6min20s; estimativa de montagem, não duração de vídeo gravado"
+  "roteiro_tempo_meta": "6min20s; estimativa de montagem, não duração de vídeo gravado",
+  "roteiro_preparado": true,
+  "roteiro_disponibilizacao": "enviado diretamente ao grupo, fora do repositório"
 }

@@ -1,4 +1,6 @@
 __pycache__/
+*.inspect.ndjson
+docs/Roteiro_Video_A3.txt
 .venv/
 .ipynb_checkpoints/
 .git/

@@ -138,11 +138,10 @@ if publication_path.exists():
     publication = json.loads(publication_path.read_text(encoding='utf-8'))
     github_url = publication.get('github_url')
     dashboard_url = publication.get('dashboard_url')
-    roteiro_video = publication.get('roteiro_video')
-    if roteiro_video and (ROOT / roteiro_video).is_file():
+    if publication.get('roteiro_preparado'):
         status['t18'] = (
-            'roteiro preparado; gravação, edição e YouTube pendentes',
-            f'{roteiro_video} — falas do grupo e demonstração, com duração estimada a confirmar na gravação.'
+            'roteiro fornecido ao grupo; gravação, edição e YouTube pendentes',
+            'Orientação de gravação entregue separadamente; incluir apenas o link do vídeo final no repositório.'
         )
     if github_url and publication.get('github_status', '').startswith('publicado'):
         status['t20'] = (

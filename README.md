@@ -10,7 +10,7 @@ Referência dos dados: 2024 · Versão de trabalho: 20/11/2026
 
 - **Repositório:** https://github.com/herbarth/a3-saneamento-inteligente
 - **Dashboard online:** https://a3-saneamento-inteligente-brasil.streamlit.app/
-- **Vídeo:** [roteiro para o grupo gravar](docs/Roteiro_Video_A3.txt) preparado; gravação e publicação pendentes.
+- **Vídeo:** gravação e publicação pendentes; o link final será incluído após a conferência.
 
 Esta é uma versão para revisão do grupo. A identificação dos integrantes e a conferência final das entregas permanecem pendentes.
 
@@ -73,6 +73,6 @@ A opção baixa o arquivo se necessário, verifica o SHA256 e executa a agregaç
 
 O projeto segue o edital e os 20 itens do checklist. **A análise preditiva opcional foi dispensada pelo grupo.** Os modelos executados são associativos e servem ao diagnóstico, sem previsão de resultados futuros.
 
-O **vídeo fica por último**, após o fechamento dos dados, das análises, do relatório e do dashboard. A apresentação tem dez slides em uma versão editável no Spaces. O dashboard passou por nove cenários funcionais locais. O repositório está público, com código, base, notebook, relatório e análises; os 104 arquivos da primeira publicação tiveram seus hashes conferidos com a cópia local. O dashboard Streamlit está publicado, com cinco abas inspecionadas, recorte da Bahia e download de 417 linhas × 56 colunas conferidos com a base local. O endereço respondeu em uma sessão nova sem credenciais. O roteiro do vídeo está preparado, com 671 palavras faladas e guia de montagem de aproximadamente 6min20s, incluindo demonstração do painel. O grupo escolheu gravar a própria fala. A gravação, a edição e a publicação no YouTube permanecem pendentes; o tempo real deve ser conferido no arquivo gravado.
+O **vídeo fica por último**, após o fechamento dos dados, das análises, do relatório e do dashboard. A apresentação tem dez slides em uma versão editável no Spaces. O dashboard passou por nove cenários funcionais locais. O repositório está público, com código, base, notebook, relatório e análises; os 104 arquivos da primeira publicação tiveram seus hashes conferidos com a cópia local. O dashboard Streamlit está publicado, com cinco abas inspecionadas, recorte da Bahia e download de 417 linhas × 56 colunas conferidos com a base local. O endereço respondeu em uma sessão nova sem credenciais. O grupo gravará a própria fala. A gravação, a edição e a publicação no YouTube permanecem pendentes; o limite de sete minutos deve ser conferido no arquivo final.
 
 Os nomes completos dos integrantes ainda precisam completar a identificação acadêmica. Curso e professor já foram inseridos. Edital e checklist são as referências obrigatórias; a apresentação formal não impõe exigências adicionais de TCC. A revisão do grupo e a conferência de links continuam necessárias antes da entrega de 03/12/2026.

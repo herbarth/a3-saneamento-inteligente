@@ -29,6 +29,6 @@
   "sha256_pdf": "ddd8771809b1c0923e6c9fb0a7b6403315a34184c95d26bdc124db15b3d9f224",
   "github": "https://github.com/herbarth/a3-saneamento-inteligente",
   "qa_pdf_publicacao": "evidencias/revisao_pdf_publicacao.json",
-  "roteiro_video": "docs/Roteiro_Video_A3.txt",
-  "roteiro_palavras_faladas": 671
+  "roteiro_palavras_faladas": 671,
+  "roteiro_disponibilizacao": "entregue separadamente ao grupo; não incluir no GitHub"
 }
