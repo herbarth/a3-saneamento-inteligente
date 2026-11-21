@@ -1,0 +1,18 @@
+{
+  "dataset_sha256": "f2529c8660ff8df47664a2b850a6be7cfbcb5dcc44261dc781249fe5bf7530de",
+  "hash_confere": true,
+  "n_faixas_confere": true,
+  "ordem_faixas_conferida": true,
+  "modelos_executados": 24,
+  "graus_liberdade_cluster_dinamicos_conferidos": true,
+  "ufs_base": 27,
+  "ufs_recuperacao_positiva": 26,
+  "figuras_inspecionadas_visualmente": [
+    "01_custos_extremos_sensibilidade.png",
+    "02_custos_por_porte.png",
+    "03_cobertura_recuperacao.png",
+    "04_associacao_ajustada_sensibilidade.png"
+  ],
+  "reparo_visual": "ordenadas faixas de cobertura e movida legenda de custos para evitar sobreposição; PNGs reinspecionados",
+  "limite": "OLS é associativo e não produz previsão operacional; zeros preservados; nenhuma correção de origem inventada"
+}

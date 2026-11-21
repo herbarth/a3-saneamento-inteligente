@@ -1,0 +1,21 @@
+﻿id,titulo,detalhe,obrigatorio,entrega_final,prazo
+t1,Formar equipe com 3 a 5 integrantes Prioridade alta,"Configurações diferentes exigem aprovação prévia comprovada do professor; caso contrário, há desconto de 50% na pontuação final.",true,false,Prazo: antes do início do projeto
+t2,Escolher uma área temática Prioridade alta,"Opções: Mobilidade Urbana, Energia, Clima ou Indicadores Socioeconômicos.",true,false,Prazo: 08/10/2026
+t3,Definir e validar o tema da análise Prioridade alta,Apresentar a proposta ao professor em sala e obter aprovação do recorte analítico.,true,false,Prazo: 08/10/2026
+t4,Definir as fontes de dados Prioridade alta,"Selecionar no mínimo 3 fontes públicas e confiáveis, como APIs, arquivos oficiais ou bancos de dados.",true,false,
+t5,Realizar a extração dos dados Prioridade alta,Coletar os dados das fontes escolhidas e registrar os métodos utilizados.,true,false,
+t6,Executar limpeza e transformação Prioridade alta,"Tratar inconsistências, padronizar formatos, integrar as bases e criar variáveis analíticas quando necessário.",true,false,
+t7,Realizar a carga e validar a base final Prioridade alta,Garantir pelo menos 6 colunas distintas e volume de linhas compatível com o tema.,true,false,
+t8,Documentar todo o processo de ETL Prioridade alta,"Incluir fontes, extração, limpeza, transformação, carga, enriquecimento, códigos-fonte e justificativas das decisões.",true,false,
+t9,Calcular estatísticas descritivas Prioridade média,"Analisar médias, medianas, quartis e desvio padrão para compreender dispersão e comportamento dos dados.",true,false,
+t10,Produzir visualizações iniciais Prioridade média,"Usar histogramas, box plots, gráficos de dispersão e outras visualizações para identificar anomalias.",true,false,
+t11,"Identificar padrões, tendências e agrupamentos Prioridade média","Investigar tendências temporais, correlações e agrupamentos naturais, documentando como foram obtidos.",true,false,
+t12,Desenvolver análises diagnósticas Prioridade média,"Responder por que os indicadores ocorreram, avaliar correlações e discutir possíveis relações causais.",true,false,
+t13,Documentar hipóteses e novos questionamentos Prioridade média,"Registrar hipóteses validadas, perguntas de pesquisa geradas e a preparação dos dados para storytelling.",true,false,
+t14,Definir se haverá análise preditiva Prioridade baixa,"Atividade opcional. Se utilizada, documentar técnica, premissas, resultados e limitações.",false,false,
+t15,Elaborar análise prescritiva Prioridade alta,"Propor recomendações práticas para gestores e stakeholders, baseadas nas evidências da EDA.",true,false,
+t16,Consolidar relatório final Prioridade máxima,"Reunir apresentação do projeto, relatório de ETL e relatório de EDA, prescrições e predições. Vale 16 pontos.",true,true,Prazo: 03/12/2026
+t17,Publicar dashboard interativo online Prioridade máxima,"Criar visualizações interativas das análises em Power BI, Streamlit, Google Colab ou outra ferramenta, disponibilizando o link. Vale 8 pontos.",true,true,Prazo: 03/12/2026
+t18,Produzir e publicar vídeo de storytelling Prioridade máxima,"Elaborar narrativa para público não técnico, com duração máxima de 7 minutos, hospedada no YouTube. Vale 16 pontos.",true,true,Prazo: 03/12/2026
+t19,Revisar qualidade dos dados e técnicas aplicadas Prioridade máxima,"Conferir precisão das informações, rigor técnico, qualidade final da base e coerência entre ETL, análises e recomendações.",true,true,Prazo: 03/12/2026
+t20,Enviar link para o repositório GITHUBPrioridade máxima,"O repositório deve conter o relatório final do projeto, o link do dashboard hospedado da web e link do vídeo hospedado no YouTube, Validar se estão acessíveis publicamente antes da entrega.",true,true,Prazo: 03/12/2026

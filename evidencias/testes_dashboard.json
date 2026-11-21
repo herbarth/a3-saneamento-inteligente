@@ -1,0 +1,80 @@
+{
+  "executado_em_utc": "2026-11-21T02:34:01.000497+00:00",
+  "metodo": "streamlit.testing.v1.AppTest; CSV real; sem publicação",
+  "versoes": {
+    "streamlit": "1.67.0",
+    "plotly": "7.1.0",
+    "pandas": "3.1.1",
+    "numpy": "2.5.5"
+  },
+  "cenarios": [
+    {
+      "cenario": "abertura nacional e todas as abas",
+      "municipios_esperados": 5570,
+      "municipios_exibidos": "5.570",
+      "excecoes": [],
+      "resultado": "aprovado"
+    },
+    {
+      "cenario": "filtro de região Nordeste",
+      "municipios_esperados": 1794,
+      "municipios_exibidos": "1.794",
+      "excecoes": [],
+      "resultado": "aprovado"
+    },
+    {
+      "cenario": "região e UF Bahia",
+      "municipios_esperados": 417,
+      "municipios_exibidos": "417",
+      "excecoes": [],
+      "resultado": "aprovado"
+    },
+    {
+      "cenario": "região UF e porte",
+      "municipios_esperados": 119,
+      "municipios_exibidos": "119",
+      "excecoes": [],
+      "resultado": "aprovado"
+    },
+    {
+      "cenario": "município individual",
+      "municipios_esperados": 1,
+      "municipios_exibidos": "1",
+      "excecoes": [],
+      "resultado": "aprovado"
+    },
+    {
+      "cenario": "alteração do critério de qualidade",
+      "municipios_esperados": 1,
+      "municipios_exibidos": "1",
+      "excecoes": [],
+      "resultado": "aprovado"
+    },
+    {
+      "cenario": "não respondente sem preencher ausências",
+      "municipios_esperados": 1,
+      "municipios_exibidos": "1",
+      "excecoes": [],
+      "resultado": "aprovado"
+    },
+    {
+      "cenario": "corte visual p1-p99 preserva universo",
+      "municipios_esperados": 5570,
+      "municipios_exibidos": "5.570",
+      "excecoes": [],
+      "resultado": "aprovado"
+    },
+    {
+      "cenario": "controles de despesa recuperação e escala log",
+      "municipios_esperados": 5570,
+      "municipios_exibidos": "5.570",
+      "excecoes": [],
+      "resultado": "aprovado"
+    }
+  ],
+  "resultado": "aprovado",
+  "observacoes": [
+    "AppTest executa todas as abas e transições verificadas; não substitui inspeção visual no navegador.",
+    "Não foi publicado endereço externo nem testado acesso público nesta execução."
+  ]
+}

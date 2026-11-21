@@ -1,0 +1,13 @@
+/pdet/microdados/RAIS/2024/
+12-30-25  03:08PM               275623 Comunicado - Microdados RAIS 2024 — Ministério do Trabalho e Emprego.htm
+05-18-26  04:21PM            140661991 RAIS_ESTAB_PUB.7z
+05-18-26  04:40PM            343753235 RAIS_VINC_PUB_CENTRO_OESTE.7z
+05-18-26  04:55PM            747149815 RAIS_VINC_PUB_MG_ES_RJ.7z
+05-18-26  04:55PM               597127 RAIS_VINC_PUB_NI.7z
+05-18-26  04:59PM            595420317 RAIS_VINC_PUB_NORDESTE.7z
+05-18-26  05:01PM            196258746 RAIS_VINC_PUB_NORTE.7z
+05-18-26  05:11PM           1066197453 RAIS_VINC_PUB_SP.7z
+05-18-26  04:13PM            680693192 RAIS_VINC_PUB_SUL.7z
+/pdet/microdados/RAIS/Layouts/
+08-08-25  10:00AM       <DIR>          estabelecimento
+08-08-25  10:00AM       <DIR>          vínculos

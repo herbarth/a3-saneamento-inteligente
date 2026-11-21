@@ -1,0 +1,16 @@
+{
+  "amostra_municipios": 4852,
+  "universo_territorial": 5570,
+  "mediana_despesa_manejo_rs_hab_ano": 69.16614320618041,
+  "mediana_recuperacao_secos_organicos_pct": 0.0,
+  "municipios_amostra_recuperacao_zero": 3323,
+  "observacoes_por_variavel": {
+    "populacao_ibge_2024": 4852,
+    "despesa_manejo_por_hab_ibge2024": 4852,
+    "despesa_manejo_por_t_rsu": 4852,
+    "recuperacao_total_calculada_pct": 4852,
+    "cobertura_seletiva_sinisa_oficial_pct": 4852,
+    "vinculos_formais_totais_por_1000_hab": 4848
+  },
+  "interpretacao": "Estatísticas municipais não ponderadas. Ausência de resposta não foi convertida em zero. Recuperação inclui orgânicos conforme definição SINISA. Correlações são exploratórias, sem prova de causalidade ou de geração de empregos."
+}

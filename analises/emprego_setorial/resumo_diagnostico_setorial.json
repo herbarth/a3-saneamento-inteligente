@@ -1,0 +1,227 @@
+{
+  "ano": 2024,
+  "universo_municipios": 5570,
+  "amostra_associacoes": 4848,
+  "municipios_excluidos_taxas_territorio": 4,
+  "municipios_excluidos_sinisa_nao_resposta": 716,
+  "municipios_excluidos_alerta_qualidade": 2,
+  "cnae38_vinculos_municipais": 265143,
+  "coleta381_vinculos_municipais": 198344,
+  "tratamento382_vinculos_municipais": 23856,
+  "recuperacao383_vinculos_municipais": 42943,
+  "cnae38_zero_municipios": 3782,
+  "cnae38_zero_pct": 67.89946140035906,
+  "recuperacao383_zero_municipios": 4437,
+  "recuperacao383_zero_pct": 79.65888689407541,
+  "cnae38_por1000_agregado_sem_4_mt": 1.2478612021409259,
+  "recuperacao383_por1000_agregado_sem_4_mt": 0.20200646827460828,
+  "cnae38_participacao_formal_agregada_pct": 0.4641833889142622,
+  "recuperacao383_participacao_formal_agregada_pct": 0.07517991148227621,
+  "associacoes_principais_secos": {
+    "vinculos_residuos_por_1000_hab": {
+      "todos_validos": {
+        "rho": 0.24338904438008527,
+        "rho_parcial_porte": 0.21497639666647983,
+        "n": 4848
+      },
+      "recuperacao_positiva": {
+        "rho": -0.26974640742971506,
+        "rho_parcial_porte": -0.008177070321690339,
+        "n": 1491
+      },
+      "vinculos_positivos": {
+        "rho": 0.06714519702196388,
+        "rho_parcial_porte": 0.07023468702168838,
+        "n": 1668
+      },
+      "ambos_positivos": {
+        "rho": -0.03864139357309816,
+        "rho_parcial_porte": -0.0013063499516872083,
+        "n": 811
+      }
+    },
+    "vinculos_recuperacao_383_por_1000_hab": {
+      "todos_validos": {
+        "rho": 0.22773761878846446,
+        "rho_parcial_porte": 0.1975877418662871,
+        "n": 4848
+      },
+      "recuperacao_positiva": {
+        "rho": -0.22965435284631688,
+        "rho_parcial_porte": 0.0034817748460675116,
+        "n": 1491
+      },
+      "vinculos_positivos": {
+        "rho": 0.09513873955381352,
+        "rho_parcial_porte": 0.11483369424696202,
+        "n": 1085
+      },
+      "ambos_positivos": {
+        "rho": 0.21590989947154351,
+        "rho_parcial_porte": 0.05546551807807451,
+        "n": 584
+      }
+    },
+    "participacao_cnae38_no_emprego_formal_pct": {
+      "todos_validos": {
+        "rho": 0.22820179028602583,
+        "rho_parcial_porte": 0.19754684841550943,
+        "n": 4848
+      },
+      "recuperacao_positiva": {
+        "rho": -0.26862782355675036,
+        "rho_parcial_porte": -0.019015022728632307,
+        "n": 1491
+      },
+      "vinculos_positivos": {
+        "rho": -0.03315801665785229,
+        "rho_parcial_porte": -0.02503050857780987,
+        "n": 1668
+      },
+      "ambos_positivos": {
+        "rho": -0.037277396885107415,
+        "rho_parcial_porte": -0.04062585281874391,
+        "n": 811
+      }
+    },
+    "participacao_recuperacao_383_no_emprego_formal_pct": {
+      "todos_validos": {
+        "rho": 0.22124798729609946,
+        "rho_parcial_porte": 0.19037035245320866,
+        "n": 4848
+      },
+      "recuperacao_positiva": {
+        "rho": -0.2303332622120243,
+        "rho_parcial_porte": -0.002990371722793667,
+        "n": 1491
+      },
+      "vinculos_positivos": {
+        "rho": 0.007432500341239742,
+        "rho_parcial_porte": 0.023663504838822534,
+        "n": 1085
+      },
+      "ambos_positivos": {
+        "rho": 0.2085822439795199,
+        "rho_parcial_porte": 0.007025741059586817,
+        "n": 584
+      }
+    }
+  },
+  "associacoes_principais_total": {
+    "vinculos_residuos_por_1000_hab": {
+      "todos_validos": {
+        "rho": 0.2393116712843937,
+        "rho_parcial_porte": 0.21253946782403513,
+        "n": 4848
+      },
+      "recuperacao_positiva": {
+        "rho": -0.2614943830974952,
+        "rho_parcial_porte": -0.00851267129255235,
+        "n": 1520
+      },
+      "vinculos_positivos": {
+        "rho": 0.06396211603325003,
+        "rho_parcial_porte": 0.06687986270348419,
+        "n": 1668
+      },
+      "ambos_positivos": {
+        "rho": -0.03536905410434039,
+        "rho_parcial_porte": -0.00035824708459890163,
+        "n": 819
+      }
+    },
+    "vinculos_recuperacao_383_por_1000_hab": {
+      "todos_validos": {
+        "rho": 0.2231730761016288,
+        "rho_parcial_porte": 0.1944708578673447,
+        "n": 4848
+      },
+      "recuperacao_positiva": {
+        "rho": -0.225044538865991,
+        "rho_parcial_porte": -3.955476227906852e-05,
+        "n": 1520
+      },
+      "vinculos_positivos": {
+        "rho": 0.09055734796980504,
+        "rho_parcial_porte": 0.1093713400263961,
+        "n": 1085
+      },
+      "ambos_positivos": {
+        "rho": 0.20670505636948813,
+        "rho_parcial_porte": 0.05358848217402311,
+        "n": 588
+      }
+    },
+    "participacao_cnae38_no_emprego_formal_pct": {
+      "todos_validos": {
+        "rho": 0.22422287653203787,
+        "rho_parcial_porte": 0.19520557268593114,
+        "n": 4848
+      },
+      "recuperacao_positiva": {
+        "rho": -0.25997446610439934,
+        "rho_parcial_porte": -0.017955913590914443,
+        "n": 1520
+      },
+      "vinculos_positivos": {
+        "rho": -0.03613921242361977,
+        "rho_parcial_porte": -0.02844699184841252,
+        "n": 1668
+      },
+      "ambos_positivos": {
+        "rho": -0.03304614102956605,
+        "rho_parcial_porte": -0.03672815834290683,
+        "n": 819
+      }
+    },
+    "participacao_recuperacao_383_no_emprego_formal_pct": {
+      "todos_validos": {
+        "rho": 0.21666295129874477,
+        "rho_parcial_porte": 0.18722478480525398,
+        "n": 4848
+      },
+      "recuperacao_positiva": {
+        "rho": -0.22590051300270866,
+        "rho_parcial_porte": -0.006427477696372756,
+        "n": 1520
+      },
+      "vinculos_positivos": {
+        "rho": 0.001978526081891664,
+        "rho_parcial_porte": 0.01698243610533534,
+        "n": 1085
+      },
+      "ambos_positivos": {
+        "rho": 0.1983443260884032,
+        "rho_parcial_porte": 0.00583771522647088,
+        "n": 588
+      }
+    }
+  },
+  "correlacao_contagens_para_comparar_efeito_porte": {
+    "vinculos_cnae38_3112": {
+      "rho": 0.25216688507850754,
+      "rho_parcial_porte": 0.22694377401360663,
+      "n": 4848
+    },
+    "vinculos_recuperacao_383_3112": {
+      "rho": 0.23334913554649236,
+      "rho_parcial_porte": 0.2034004296947733,
+      "n": 4848
+    },
+    "populacao_ibge_2024": {
+      "rho": 0.11686722988648544,
+      "rho_parcial_porte": null,
+      "n": 4848
+    }
+  },
+  "metodo": "Spearman por postos médios, pares completos, municípios com resposta SINISA, sem os dois alertas iniciais e sem quatro unidades MT com revisão territorial. Sensibilidades definidas por indicador/variável >0. Correlação parcial residualiza postos de X e Y nos postos de log10(população), com intercepto. Não foram calculados testes de hipótese ou previsões causais.",
+  "limitacoes": [
+    "CNAE é atividade principal do estabelecimento, não ocupação ou certificação de emprego verde.",
+    "RAIS exclui informais; zero não implica ausência de reciclagem ou de catadores.",
+    "Município do estabelecimento difere da área atendida por prestadores regionais e da residência dos trabalhadores.",
+    "SINISA mede serviços municipais; divisão38 abrange também resíduos industriais e perigosos.",
+    "Associar percentuais e taxas reduz o efeito do porte, mas não elimina confusão, viés de resposta, concentração regional ou endogeneidade.",
+    "Subamostras positivas são análises de sensibilidade com seleção diferente; não são mais representativas por definição."
+  ],
+  "sha256_dataset_entrada": "f2529c8660ff8df47664a2b850a6be7cfbcb5dcc44261dc781249fe5bf7530de"
+}

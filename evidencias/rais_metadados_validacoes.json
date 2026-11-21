@@ -1,0 +1,142 @@
+{
+  "fonte": "MTE / RAIS 2024 divulgação complementar",
+  "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2024/rais-2024-1/rais-complementar-tabelas-2023x2024.xlsx",
+  "arquivo": "data/raw/rais-complementar-tabelas-2023x2024.xlsx",
+  "sha256": "175c696341bb2821dc6a210367ccd20ba8e9e5f9d790daef195b76b3ee90ab38",
+  "tabela": "TABELA 4",
+  "cabecalhos_linhas": [
+    13,
+    14
+  ],
+  "colunas_excel": {
+    "codigo_6": "C",
+    "uf": "B",
+    "total_2024": "Z"
+  },
+  "chave": "prefixo único de seis dígitos de cod_ibge; UF validada; sem ligação por nome",
+  "municipios": 5570,
+  "ufs": 27,
+  "soma_vinculos_municipais": 57120312,
+  "registros_sem_municipio": [
+    {
+      "cod_municipio_rais": "999999",
+      "uf_rais": "NI",
+      "municipio_rais": "Não Identificado",
+      "ano": 2024,
+      "vinculos_formais_totais_3112": 10899,
+      "linha_origem_rais": 5587
+    }
+  ],
+  "soma_nao_identificados": 10899,
+  "registros_fora_recorte_ibge": [
+    {
+      "cod_municipio_rais": "510183",
+      "uf_rais": "MT",
+      "municipio_rais": "Boa Esperança do Norte",
+      "ano": 2024,
+      "vinculos_formais_totais_3112": 945,
+      "linha_origem_rais": 5215
+    }
+  ],
+  "soma_fora_recorte_ibge": 945,
+  "estoque_brasil_tabela_1": 57132156,
+  "reconciliacao_total": true,
+  "somas_cinco_grandes_setores_conferem": false,
+  "divergencias_soma_setorial_original": [
+    {
+      "linha": 651,
+      "codigo_6": "211130",
+      "total_2024": 440080,
+      "soma_grandes_setores": 440078,
+      "diferenca": 2
+    },
+    {
+      "linha": 957,
+      "codigo_6": "230420",
+      "total_2024": 20634,
+      "soma_grandes_setores": 20631,
+      "diferenca": 3
+    },
+    {
+      "linha": 1881,
+      "codigo_6": "290320",
+      "total_2024": 40955,
+      "soma_grandes_setores": 40954,
+      "diferenca": 1
+    },
+    {
+      "linha": 2136,
+      "codigo_6": "292400",
+      "total_2024": 18214,
+      "soma_grandes_setores": 18211,
+      "diferenca": 3
+    },
+    {
+      "linha": 3258,
+      "codigo_6": "330455",
+      "total_2024": 2547411,
+      "soma_grandes_setores": 2547410,
+      "diferenca": 1
+    },
+    {
+      "linha": 3331,
+      "codigo_6": "350420",
+      "total_2024": 2927,
+      "soma_grandes_setores": 2926,
+      "diferenca": 1
+    },
+    {
+      "linha": 3715,
+      "codigo_6": "353860",
+      "total_2024": 5857,
+      "soma_grandes_setores": 5856,
+      "diferenca": 1
+    },
+    {
+      "linha": 3827,
+      "codigo_6": "354870",
+      "total_2024": 296263,
+      "soma_grandes_setores": 296261,
+      "diferenca": 2
+    },
+    {
+      "linha": 3845,
+      "codigo_6": "355030",
+      "total_2024": 5346517,
+      "soma_grandes_setores": 5346513,
+      "diferenca": 4
+    },
+    {
+      "linha": 4414,
+      "codigo_6": "420540",
+      "total_2024": 326018,
+      "soma_grandes_setores": 326016,
+      "diferenca": 2
+    },
+    {
+      "linha": 5067,
+      "codigo_6": "432140",
+      "total_2024": 3222,
+      "soma_grandes_setores": 3221,
+      "diferenca": 1
+    },
+    {
+      "linha": 5459,
+      "codigo_6": "521100",
+      "total_2024": 1200,
+      "soma_grandes_setores": 1199,
+      "diferenca": 1
+    },
+    {
+      "linha": 5586,
+      "codigo_6": "530010",
+      "total_2024": 1685262,
+      "soma_grandes_setores": 1682039,
+      "diferenca": 3223
+    }
+  ],
+  "decisao_soma_setorial": "Preservado Total oficial da coluna Z. Divergências em relação aos cinco grupos foram registradas e não corrigidas; causa não confirmada.",
+  "escopo": "Estoque em 31/12/2024, todos os setores; vínculos, não pessoas únicas.",
+  "limitacao": "Variável contextual do mercado formal. Não representa empregos verdes nem CNAE 38. Não cobre trabalho informal. Recorte setorial dos microdados ainda pendente.",
+  "csv": "data/processed/rais_vinculos_totais_municipios_2024.csv"
+}

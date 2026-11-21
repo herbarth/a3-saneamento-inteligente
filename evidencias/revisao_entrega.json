@@ -1,0 +1,30 @@
+{
+  "relatorio_paginas": 16,
+  "paginas_relatorio_inspecionadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "relatorio_ajuste_usuario": "Edital e checklist como referências principais; aparência acadêmica formal, sem exigência estrita do manual",
+  "professor": "Eduardo Sidney da Silva Xavier",
+  "curso": "Engenharia da Computação",
+  "apresentacao_slides": 10,
+  "predicao_opcional": "dispensada conforme usuário",
+  "video": "deixado para a última etapa conforme usuário; não produzido",
+  "dashboard_funcional": "9 cenários AppTest aprovados",
+  "dashboard_visual_e_publicacao": "pendentes; abertura do navegador local não foi autorizada",
+  "sha256_pdf": "1fad9026f35a04090be83d59f9b483b2da51230ff3a708eab313098b1b39ad0a"
+}

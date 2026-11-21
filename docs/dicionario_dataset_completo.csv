@@ -1,0 +1,57 @@
+﻿fonte,codigo_original,descricao,unidade,arquivo,aba,coluna,tipo_lido_csv,valores_nao_ausentes,valores_ausentes
+IBGE/SINISA,,Código municipal de sete dígitos; chave textual.,código,,,cod_ibge,str,5570,0
+recorte,,Ano de referência;2024.,ano,,,ano,int64,5570,0
+SINISA,,Nome como publicado SINISA; não usado como chave.,texto,,,municipio_sinisa,str,5570,0
+SINISA,,Macrorregião do município.,texto,,,regiao,str,5570,0
+SINISA,,"Sim ou Não; Não é não resposta, nunca despesa zero.",categoria,,,respondeu_sinisa,str,5570,0
+SINISA,,DFE0001; comparada integralmente com IBGE DOU2024.,habitantes,,,populacao_base_sinisa,int64,5570,0
+SINISA,IFR2002,Despesa de exploração média do serviço de manejo de resíduos sólidos por habitante,R$/habitante coberto.ano,SINISA_RESIDUOS_Indicadores_2024.xlsx,Planilha_Indicadores_municipais,despesa_manejo_por_hab_coberto_sinisa_oficial,float64,4854,716
+SINISA,IRS0001,Cobertura da população total com coleta de resíduos sólidos domiciliares,%,SINISA_RESIDUOS_Indicadores_2024.xlsx,Planilha_Indicadores_municipais,cobertura_coleta_sinisa_oficial_pct,float64,4854,716
+SINISA,IRS0005,Cobertura da população total com coleta seletiva de resíduos sólidos domiciliares,%,SINISA_RESIDUOS_Indicadores_2024.xlsx,Planilha_Indicadores_municipais,cobertura_seletiva_sinisa_oficial_pct,float64,4854,716
+SINISA,IRS3010,Recuperação de resíduos recicláveis secos e orgânicos em relação à quantidade total coletada,%,SINISA_RESIDUOS_Indicadores_2024.xlsx,Planilha_Indicadores_municipais,recuperacao_total_sinisa_oficial_pct,float64,4854,716
+SINISA,IRS3011,Recuperação de resíduos recicláveis secos em relação à quantidade total coletada,%,SINISA_RESIDUOS_Indicadores_2024.xlsx,Planilha_Indicadores_municipais,recuperacao_secos_sinisa_oficial_pct,float64,4854,716
+SINISA,IRS3012,Recuperação de resíduos recicláveis orgânicos em relação à quantidade total coletada,%,SINISA_RESIDUOS_Indicadores_2024.xlsx,Planilha_Indicadores_municipais,recuperacao_organicos_sinisa_oficial_pct,float64,4854,716
+SINISA,IRS3002,Disposição final inadequada de resíduos sólidos urbanos,%,SINISA_RESIDUOS_Indicadores_2024.xlsx,Planilha_Indicadores_municipais,disposicao_inadequada_sinisa_oficial_pct,float64,4854,716
+SINISA,GFI2221,Total de despesas de exploração (DEX) do serviço de manejo de resíduos sólidos,R$/ano,SINISA_RESIDUOS_Informacoes_Formulario_Despesas_Investimentos_e_Pessoal_2024.xlsx,Despesas_Investimentos_Pessoal,despesa_exploracao_manejo_rs_ano,float64,4854,716
+SINISA,GFI2208,Total de despesas de exploração (DEX) do serviço de limpeza urbana,R$/ano,SINISA_RESIDUOS_Informacoes_Formulario_Despesas_Investimentos_e_Pessoal_2024.xlsx,Despesas_Investimentos_Pessoal,despesa_exploracao_limpeza_urbana_rs_ano,float64,4854,716
+SINISA,GFI2233,Despesas totais com os serviços (DTS) de limpeza urbana e manejo de resíduos sólidos,R$/ano,SINISA_RESIDUOS_Informacoes_Formulario_Despesas_Investimentos_e_Pessoal_2024.xlsx,Despesas_Investimentos_Pessoal,despesa_total_servicos_rs_ano,float64,417,5153
+SINISA,GFI2237,Investimento total realizado pelo prestador para os serviços de limpeza urbana e manejo de resíduos sólidos,R$/ano,SINISA_RESIDUOS_Informacoes_Formulario_Despesas_Investimentos_e_Pessoal_2024.xlsx,Despesas_Investimentos_Pessoal,investimento_total_rs_ano,float64,4839,731
+SINISA,GFI2266,Quantidade total de pessoal do serviço de manejo de resíduos sólidos,trabalhadores,SINISA_RESIDUOS_Informacoes_Formulario_Despesas_Investimentos_e_Pessoal_2024.xlsx,Despesas_Investimentos_Pessoal,pessoal_manejo_sinisa,float64,4854,716
+SINISA,GTR1025,Massa total anual proveniente das rotas de coleta de resíduos sólidos domiciliares,t/ano,SINISA_RESIDUOS_Informacoes_Formulario_Manejo_2024.xlsx,Manejo_Resíduos_Sólidos_Urbanos,massa_domiciliar_coletada_t_ano,float64,4854,716
+SINISA,GTR1026,Massa total anual proveniente das rotas de coleta seletiva de resíduos sólidos domiciliares,t/ano,SINISA_RESIDUOS_Informacoes_Formulario_Manejo_2024.xlsx,Manejo_Resíduos_Sólidos_Urbanos,massa_coleta_seletiva_t_ano,float64,4854,716
+SINISA,GTR1027,Massa total anual proveniente das rotas de coleta de resíduos sólidos de limpeza urbana,t/ano,SINISA_RESIDUOS_Informacoes_Formulario_Manejo_2024.xlsx,Manejo_Resíduos_Sólidos_Urbanos,massa_limpeza_urbana_t_ano,float64,4854,716
+SINISA,GTR1028,Massa total anual de resíduos sólidos urbanos coletados no município,t/ano,SINISA_RESIDUOS_Informacoes_Formulario_Manejo_2024.xlsx,Manejo_Resíduos_Sólidos_Urbanos,massa_rsu_coletada_t_ano,float64,4854,716
+SINISA,GTR1029,Massa total anual recuperada de resíduos sólidos domiciliares secos e orgânicos no município,t/ano,SINISA_RESIDUOS_Informacoes_Formulario_Manejo_2024.xlsx,Manejo_Resíduos_Sólidos_Urbanos,massa_recuperada_secos_organicos_t_ano,float64,4854,716
+SINISA,GTR1309,Quantidade de associações ou cooperativas de catadores que atuam no município,associações/cooperativas,SINISA_RESIDUOS_Informacoes_Formulario_Manejo_2024.xlsx,Manejo_Resíduos_Sólidos_Urbanos,associacoes_cooperativas_catadores,float64,4854,716
+SINISA,GTR1310,Quantidade de catadores de materiais recicláveis total que atuam organizados (associação/cooperativa) no município,catadores,SINISA_RESIDUOS_Informacoes_Formulario_Manejo_2024.xlsx,Manejo_Resíduos_Sólidos_Urbanos,catadores_organizados_sinisa,float64,4854,716
+SINISA,GTR1311,Quantidade de catadores de materiais recicláveis informais (não organizados em cooperativas ou associações) que atuam de maneira autônoma no município,catadores,SINISA_RESIDUOS_Informacoes_Formulario_Manejo_2024.xlsx,Manejo_Resíduos_Sólidos_Urbanos,catadores_autonomos_informados_sinisa,float64,609,4961
+SINISA,GTR0201,População total coberta pelo serviço de coleta indiferenciada direta ou indireta com frequência mínima de 1 (uma) vez por semana,habitantes,SINISA_RESIDUOS_Informacoes_Formulario_Cobertura_2024.xlsx,Cobertura,populacao_coberta_coleta_sinisa,float64,4854,716
+SINISA,GTR0205,População total coberta pelo serviço de coleta seletiva com frequência mínima de 1 (uma) vez por semana,habitantes,SINISA_RESIDUOS_Informacoes_Formulario_Cobertura_2024.xlsx,Cobertura,populacao_coberta_seletiva_sinisa,float64,4854,716
+IBGE,,Nome como publicado pelo IBGE.,texto,,,municipio,str,5570,0
+IBGE,,Sigla da unidade da federação.,sigla,,,uf,str,5570,0
+IBGE,,População estimada em1julho2024; DOU29agosto2024.,habitantes,,,populacao_ibge_2024,int64,5570,0
+IBGE,,Chamadas de notas da linha da estimativa; textos originais preservados à parte.,texto,,,notas_ibge,float64,0,5570
+IBGE,,Data da edição usada;2024-08-29.,data,,,versao_ibge,str,5570,0
+calculada,,DFE0001 menos população IBGE escolhida.,habitantes,,,diferenca_populacao_sinisa_ibge,int64,5570,0
+calculada,,GFI2221/população residente IBGE; diferente do denominador coberto do IFR2002.,R$/hab.ano,,,despesa_manejo_por_hab_ibge2024,float64,4854,716
+calculada,,"GFI2221/GTR1028; manejo total por massa RSU, não custo exclusivo da coleta.",R$/t,,,despesa_manejo_por_t_rsu,float64,4854,716
+calculada,,100*GTR1029/GTR1028; secos+orgânicos conforme SINISA.,%,,,recuperacao_total_calculada_pct,float64,4854,716
+calculada,,100*GTR0201/população IBGE.,%,,,cobertura_coleta_ibge2024_pct,float64,4854,716
+calculada,,100*GTR0205/população IBGE.,%,,,cobertura_seletiva_ibge2024_pct,float64,4854,716
+calculada,,"Cortes(0,20mil],(20mil,50mil],(50mil,100mil],(100mil,500mil],>500mil habitantes.",categoria,,,porte_populacional,str,5570,0
+RAIS,,"Estoque ativo em estabelecimentos da divisão CNAE38, atividade principal; aproximação setorial, não certifica emprego verde.",vínculos,,,vinculos_cnae38_3112,int64,5570,0
+RAIS,,"Estoque ativo do grupo CNAE38.1, coleta de resíduos.",vínculos,,,vinculos_coleta_381_3112,int64,5570,0
+RAIS,,"Estoque ativo do grupo CNAE38.2, tratamento e disposição de resíduos.",vínculos,,,vinculos_tratamento_382_3112,int64,5570,0
+RAIS,,"Estoque ativo do grupo CNAE38.3, recuperação de materiais.",vínculos,,,vinculos_recuperacao_383_3112,int64,5570,0
+RAIS,,"Registros declarantes da divisão38, incluindo estoque zero em31/12.",estabelecimentos,,,estabelecimentos_cnae38_declarantes,int64,5570,0
+RAIS,,Registros da divisão38 com estoque positivo em31/12.,estabelecimentos,,,estabelecimentos_cnae38_com_vinculos_3112,int64,5570,0
+RAIS,,Estoque vínculos formais ativos em31dez2024 em TODOS os setores; não empregos verdes.,vínculos,,,vinculos_formais_totais_3112,int64,5570,0
+controle,,Quatro municípios doadores de Boa Esperança do Norte; dados RAIS e IBGE DOU/SINISA requerem harmonização territorial. Estoque preservado; razão por população indisponível.,booleano,,,flag_compatibilidade_territorial_rais,bool,5570,0
+calculada,,1000*vínculos setoriais/população IBGE.,vínculos/mil habitantes,,,vinculos_residuos_por_1000_hab,float64,5566,4
+calculada,,1000*vínculos grupo38.3/população residente; suspenso nos quatro municípios com alerta territorial.,vínculos/mil habitantes,,,vinculos_recuperacao_383_por_1000_hab,float64,5566,4
+controle,,Estado real da disponibilidade RAIS por município; total não equivale ao setorial.,texto,,,status_rais,str,5570,0
+calculada,,100*estoque CNAE38/estoque formal de todos os setores no mesmo município; população não participa do denominador.,%,,,participacao_cnae38_no_emprego_formal_pct,float64,5570,0
+calculada,,1000*vínculos formais totais/população IBGE.,vínculos/mil habitantes,,,vinculos_formais_totais_por_1000_hab,float64,5566,4
+controle,,Fontes no registro; verificar a resposta SINISA e disponibilidade de cada variável.,texto,,,fontes_integradas,str,5570,0
+controle,,Ao menos uma regra de consistência sinalizada; não é certificação dos demais valores.,booleano,,,flag_qualidade,bool,5570,0
+controle,,"Respondente,despesa e massa>0,recuperação entre0e100,sem alertas iniciais.",booleano,,,apta_analise_custo_recuperacao,bool,5570,0

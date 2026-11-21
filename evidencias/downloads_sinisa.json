@@ -1,0 +1,23 @@
+[
+  {
+    "arquivo": "SINISA_RESIDUOS_planilhas_2024.zip",
+    "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/SINISA_RESIDUOS_planilhas_2024.zip",
+    "bytes": 18338617,
+    "sha256": "caa7a0fe02219368a26c1c65a718dfe14b5bd06ddc6da95f89b9eddbbadbf4c1",
+    "obtido_em": "2026-11-21T01:34:15.828139+00:00"
+  },
+  {
+    "arquivo": "Glossario_Informacoes_SINISA_2024.pdf",
+    "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/Glossario_Informacoes_SINISA_2024.pdf",
+    "bytes": 492687,
+    "sha256": "c1b3dc030dc364e788a35367c80d8ae21b6e49a16f0c80804778259d04dc39ca",
+    "obtido_em": "2026-11-21T01:34:16.353765+00:00"
+  },
+  {
+    "arquivo": "Glossario_Indicadores_SINISA_2024.pdf",
+    "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/Glossario_Indicadores_SINISA_2024.pdf",
+    "bytes": 330226,
+    "sha256": "8d7756d28278b4030477e797b1b72a26e52942854f349ce42913667c6bbe0256",
+    "obtido_em": "2026-11-21T01:34:16.911807+00:00"
+  }
+]

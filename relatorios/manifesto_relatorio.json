@@ -1,0 +1,17 @@
+{
+  "gerado_em_utc": "2026-11-21T02:37:28.387011+00:00",
+  "arquivo": "relatorios\\Relatorio_A3_Saneamento_Inteligente.pdf",
+  "sha256_pdf": "1fad9026f35a04090be83d59f9b483b2da51230ff3a708eab313098b1b39ad0a",
+  "sha256_dataset": "f2529c8660ff8df47664a2b850a6be7cfbcb5dcc44261dc781249fe5bf7530de",
+  "dataset_linhas": 5570,
+  "dataset_colunas": 56,
+  "diagnostico_sha256_dataset": "f2529c8660ff8df47664a2b850a6be7cfbcb5dcc44261dc781249fe5bf7530de",
+  "resumo_setorial_disponivel": true,
+  "fontes": [
+    "SINISA",
+    "IBGE",
+    "RAIS"
+  ],
+  "data_contexto_usuario": "2026-11-20",
+  "formatacao": "Apresentação acadêmica formal, com capa, sumário, seções, tabelas e referências; edital e checklist são as referências obrigatórias. ABNT estrita não exigida."
+}

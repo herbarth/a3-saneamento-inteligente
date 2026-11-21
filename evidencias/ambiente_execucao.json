@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "pacotes_etl": {
+    "pandas": "3.0.1",
+    "numpy": "2.3.5",
+    "openpyxl": "3.1.5"
+  },
+  "matplotlib_eda": "3.10.8",
+  "data_local_contexto": "2026-11-20",
+  "data_utc_esta_em_validacoes_etl": "sim",
+  "pacotes_analises": {
+    "python": "3.12.14",
+    "pandas": "3.1.1",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0"
+  }
+}

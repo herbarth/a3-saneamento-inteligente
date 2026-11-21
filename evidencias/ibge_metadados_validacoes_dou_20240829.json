@@ -1,0 +1,25 @@
+{
+  "fonte": "IBGE / DPE / COPIS — Estimativas da População 2024",
+  "url_arquivo": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/estimativa_dou_2024.ods",
+  "url_pagina": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/",
+  "data_referencia": "2024-07-01",
+  "versao": "2024-08-29",
+  "processado_em_utc": "2026-11-21T01:39:28.065233+00:00",
+  "arquivo_original": "estimativa_dou_2024.ods",
+  "bytes": 199222,
+  "sha256": "de66e4714c9fae2e11627eb60b27d4a7327f63ab7235e414e3599cca22421f19",
+  "arquivo_limpo": "ibge_populacao_municipios_2024_dou_20240829.csv",
+  "validacoes": {
+    "linhas": 5570,
+    "municipios_unicos": 5570,
+    "ufs_distintas": 27,
+    "codigos_7_digitos": true,
+    "populacao_positiva": true,
+    "soma_populacao_municipal": 212583750,
+    "populacao_brasil_aba_oficial": 212583750,
+    "municipios_com_notas": 0,
+    "soma_confere_brasil": true
+  },
+  "decisao_notas": "Usada a coluna POPULAÇÃO ESTIMADA da tabela. Chamadas de notas judiciais preservadas em notas_ibge; valores citados nas notas não substituem a estimativa.",
+  "alerta_territorial": "TCU revisado inclui Boa Esperança do Norte 5101837 (instalação 01/01/2025) e redistribui população dos municípios doadores em MT; DOU original conserva 5.570 registros. Compatibilizar território antes de usar taxas municipais."
+}

@@ -1,0 +1,99 @@
+{
+  "arquivo": "work\\rais_setorial\\RAIS_ESTAB_PUB.COMT",
+  "sha256": "f82da9507079ecd40cb221edac3fb6bf61edf8c318c7dab26fd3eae066f84c0d",
+  "bytes": 1431437349,
+  "encoding": "cp1252",
+  "delimitador": ",",
+  "cabecalho": [
+    "Bairros SP - Código",
+    "Bairros Fortaleza - Código",
+    "Bairros RJ - Código",
+    "CNAE 2.0 Classe - Código",
+    "CNAE 95 Classe - Código",
+    "Distritos SP - Código",
+    "Qtd Vínculos CLT",
+    "Qtd Vínculos Ativos",
+    "Qtd Vínculos Estatutários",
+    "Ind Atividade Ano - Código",
+    "Ind CEI Vinculado - Código",
+    "Ind Estab Participante PAT - Código",
+    "Ind RAIS Negativa - Código",
+    "Ind Estab Participante SIMPLES - Código",
+    "Município - Código",
+    "Natureza Jurídica - Código",
+    "Região Adm DF - Código",
+    "CNAE 2.0 Subclasse - Codigo",
+    "Tamanho Estabelecimento - Código",
+    "Tipo Estabelecimento - Código",
+    "UF - Código",
+    "IBGE Subsetor - Código",
+    "CEP Estab"
+  ],
+  "colunas_utilizadas": [
+    "Município - Código",
+    "CNAE 2.0 Classe - Código",
+    "CNAE 2.0 Subclasse - Codigo",
+    "Qtd Vínculos Ativos"
+  ],
+  "linhas_lidas": 13186059,
+  "estoque_nacional_todos_setores": 57132156,
+  "estoque_nacional_cnae38": 265151,
+  "estoque_grupos_nacional": {
+    "381": 198344,
+    "382": 23856,
+    "383": 42951
+  },
+  "estabelecimentos_cnae38_declarantes_nacional": 19275,
+  "estabelecimentos_cnae38_com_vinculos_nacional": 8679,
+  "classes_cnae38_observadas": {
+    "38114": 8699,
+    "38327": 3180,
+    "38319": 2856,
+    "38394": 2497,
+    "38122": 875,
+    "38211": 850,
+    "38220": 318
+  },
+  "comprimentos_coluna_rotulada_classe": {
+    "7": 13186059
+  },
+  "comprimentos_coluna_subclasse": {
+    "7": 13186059
+  },
+  "registros_classe_diferente_subclasse": 0,
+  "decisao_cnae": "Utilizada a coluna Subclasse de sete dígitos. Classe derivada dos primeiros cinco; divisão dos primeiros dois; grupo dos primeiros três. A coluna rotulada Classe é inspecionada e não usada para classificação.",
+  "estoque_cnae_ausente_00000": 0,
+  "registros_cnae_ausente_00000": 0,
+  "estoque_cnae_00000_por_municipio": {},
+  "codigos_nao_pareados": [
+    {
+      "codigo6": "510183",
+      "estoque_total": 945,
+      "estoque_cnae38": 0
+    },
+    {
+      "codigo6": "999999",
+      "estoque_total": 10899,
+      "estoque_cnae38": 8
+    }
+  ],
+  "municipios_saida": 5570,
+  "municipios_cnae38_positivo": 1788,
+  "municipios_totais_divergentes_tabela": [],
+  "validacoes": {
+    "estoque_e_declarantes_nacionais_reconciliados": true,
+    "codigo_municipal_formato_valido": true,
+    "estoques_nao_negativos_inteiros": true,
+    "cnae38_soma_grupos_confere": true,
+    "zeros_preenchidos_apos_leitura_completa": true
+  },
+  "escopo": "Vínculos ativos31/12 em estabelecimentos CNAE2.0 divisão38. Aproximação setorial; não certifica emprego verde/decente, exclui informais e emprego em outros CNAEs.",
+  "csv": "work\\rais_setorial\\processados\\rais_residuos_municipios_2024.csv",
+  "duracao_segundos": 26.3,
+  "fonte_url": "ftp://ftp.mtps.gov.br/pdet/microdados/RAIS/2024/RAIS_ESTAB_PUB.7z",
+  "sha256_compactado": "f5dbd564a8c9afa4242ecd48a9a112b184e0a1a3ffa2df0ff28051057ad1a267",
+  "sha256_de_para": "4be7a7421ce44e40c4b18ea044c624e16775a5d0e3429dac18acb6afd7545117",
+  "data_execucao": "2026-11-20",
+  "csv_publicado": "data/processed/rais_residuos_municipios_2024.csv",
+  "script_publicado": "scripts/extrair_rais_setorial.py"
+}
