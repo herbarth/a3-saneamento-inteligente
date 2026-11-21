@@ -27,7 +27,7 @@ Com o detalhamento RAIS integrado, a aba Emprego também apresenta os grupos `vi
 
 ## Publicação
 
-Esta entrega contém o aplicativo local. A publicação em Streamlit Community Cloud ainda depende de repositório e conta disponíveis; não foi executada nem foi criado um endereço público. Ao publicar, usar `app.py` como arquivo principal; `requirements.txt` já inclui as dependências do painel. Validar o acesso público e os filtros após o deploy.
+Esta entrega contém o aplicativo local. O repositório público está disponível em https://github.com/herbarth/a3-saneamento-inteligente. A publicação em Streamlit Community Cloud aguarda a entrada e o aceite dos termos pelo usuário; não foi criado um endereço público do painel. Ao publicar, usar `app.py` como arquivo principal; `requirements.txt` já inclui as dependências do painel. Validar o acesso público e os filtros após o deploy.
 
 ## Validação desta versão
 

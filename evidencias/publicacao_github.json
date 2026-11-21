@@ -1,0 +1,12 @@
+{
+  "github_url": "https://github.com/herbarth/a3-saneamento-inteligente",
+  "github_status": "publicado e verificado",
+  "commit_primeira_publicacao": "721b46da3b38af5ea81de69dfef36fe71648beea",
+  "arquivos_primeira_publicacao": 104,
+  "verificacao": "104 hashes de objetos Git conferidos com os arquivos locais; árvore remota não truncada",
+  "data_local_contexto": "2026-11-20",
+  "dashboard_url": null,
+  "dashboard_status": "publicação pendente de entrada e aceite de termos pelo usuário no Streamlit",
+  "video_url": null,
+  "video_status": "última etapa conforme usuário; não produzido"
+}
