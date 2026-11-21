@@ -36,6 +36,18 @@ def read_json(path):
     return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
+def publication_line(label, url, status):
+    """Mostra somente o estado registrado; a presença de URL não prova validação."""
+    text = f"<b>{escape(label)}:</b> {escape(str(status or 'estado não informado'))}."
+    if url:
+        safe_url = escape(str(url), {'"': "&quot;", "'": "&apos;"})
+        if str(url).startswith("https://"):
+            text += f' <link href="{safe_url}" color="#000000">{safe_url}</link>'
+        else:
+            text += f" {safe_url}"
+    return text
+
+
 def br(value, decimals=0):
     if pd.isna(value):
         return "-"
@@ -178,6 +190,8 @@ def generate():
     sensitivity = pd.read_csv(ROOT / "analises/diagnostico/sensibilidade_amostras.csv")
     regions = pd.read_csv(ROOT / "analises/diagnostico/por_regiao.csv")
     dashboard_test = read_json(ROOT / "evidencias/testes_dashboard.json")
+    publication_path = ROOT / "docs/publicacao.json"
+    publication = read_json(publication_path) if publication_path.exists() else {}
     sector_summary_path = ROOT / "analises/emprego_setorial/resumo_diagnostico_setorial.json"
     sector_summary = read_json(sector_summary_path) if sector_summary_path.exists() else None
     sector_csv = ROOT / "data/processed/rais_residuos_municipios_2024.csv"
@@ -340,7 +354,13 @@ def generate():
     story += title("Reprodução", "12. Evidências e disponibilização")
     story += [p("Arquivos de reprodução", "H2A3"), p("scripts/etl.py e scripts/extrair_rais_setorial.py: transformação e integração. scripts/diagnostico.py: amostras, auditoria e modelos. app.py: painel. docs/dicionario_dataset_completo.csv: códigos, unidades e cobertura. evidencias/: hashes e validações. analises/diagnostico/ e analises/emprego_setorial/: tabelas, figuras e resumos. Os microdados RAIS descompactados, com 1,43 GB, ficam fora do repositório; a origem e o hash permitem obtê-los novamente.", "SmallA3")]
     story += [p(f"Base desta versão: {br(len(data))} × {len(data.columns)}. SHA256:<br/>{dataset_hash}", "SmallA3")]
-    story += [p("Estado real da disponibilização", "H2A3"), p(f"O dashboard foi executado localmente e aprovado em {len(dashboard_test['cenarios'])} cenários AppTest: filtros, não respondente, critérios de qualidade, controles visuais e download. O teste não substitui inspeção pública. Dashboard online, repositório público, slides finais e vídeo YouTube de até sete minutos não são declarados publicados por este relatório. Os links devem ser conferidos antes da entrega de 03/12/2026.", "SmallA3")]
+    story += [p("Estado real da disponibilização", "H2A3"), p(f"O dashboard foi executado localmente e aprovado em {len(dashboard_test['cenarios'])} cenários AppTest: filtros, não respondente, critérios de qualidade, controles visuais e download. Esses testes são registrados separadamente da validação do acesso público.", "SmallA3")]
+    story += [p("<br/>".join([
+        publication_line("GitHub", publication.get("github_url"), publication.get("github_status")),
+        publication_line("Dashboard online", publication.get("dashboard_url"), publication.get("dashboard_status", "publicação ainda não registrada")),
+        publication_line("Vídeo YouTube de até sete minutos", publication.get("video_url"), publication.get("video_status", "última etapa conforme o grupo; ainda não produzido")),
+    ]), "SmallA3")]
+    story += [p("O registro de disponibilização é lido de docs/publicacao.json. Os links e seus estados devem ser conferidos antes da entrega de 03/12/2026.", "SmallA3")]
     refs = [
         ("R1", "BRASIL. Ministério das Cidades. Resultados SINISA 2025: ano de referência 2024. Brasília, DF: Ministério das Cidades, 2025.", "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/resultados-sinisa-2025"),
         ("R2", "IBGE. Estimativas da população residente para os municípios: 2024. Rio de Janeiro: IBGE, 2024.", "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/"),
@@ -364,6 +384,7 @@ def generate():
         "resumo_setorial_disponivel": sector_summary is not None,
         "fontes": ["SINISA", "IBGE", "RAIS"], "data_contexto_usuario": "2026-11-20",
         "formatacao": "Apresentação acadêmica formal, com capa, sumário, seções, tabelas e referências; edital e checklist são as referências obrigatórias. ABNT estrita não exigida.",
+        "publicacao": {key: publication.get(key) for key in ("github_url", "github_status", "dashboard_url", "dashboard_status", "video_url", "video_status")},
     }
     (OUT.parent / "manifesto_relatorio.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(manifest, ensure_ascii=False, indent=2))

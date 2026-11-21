@@ -23,8 +23,12 @@
   "curso": "Engenharia da Computação",
   "apresentacao_slides": 10,
   "predicao_opcional": "dispensada conforme usuário",
-  "video": "deixado para a última etapa conforme usuário; não produzido",
+  "video": "roteiro preparado para o grupo gravar a própria fala; gravação, edição e publicação pendentes",
   "dashboard_funcional": "9 cenários AppTest aprovados",
-  "dashboard_visual_e_publicacao": "pendentes; abertura do navegador local não foi autorizada",
-  "sha256_pdf": "1fad9026f35a04090be83d59f9b483b2da51230ff3a708eab313098b1b39ad0a"
+  "dashboard_visual_e_publicacao": "publicado e validado em https://a3-saneamento-inteligente-brasil.streamlit.app/; cinco abas, filtro BA, download e acesso sem credenciais conferidos; visual final aprovado",
+  "sha256_pdf": "ddd8771809b1c0923e6c9fb0a7b6403315a34184c95d26bdc124db15b3d9f224",
+  "github": "https://github.com/herbarth/a3-saneamento-inteligente",
+  "qa_pdf_publicacao": "evidencias/revisao_pdf_publicacao.json",
+  "roteiro_video": "docs/Roteiro_Video_A3.txt",
+  "roteiro_palavras_faladas": 671
 }

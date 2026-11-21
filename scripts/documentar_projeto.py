@@ -133,6 +133,32 @@ status = {
     't19': ('iniciada', 'Verificações e revisão independente executadas; revisão final pendente.'),
     't20': ('pendente', 'Pacote local; repositório público ainda não publicado.'),
 }
+publication_path = docs / 'publicacao.json'
+if publication_path.exists():
+    publication = json.loads(publication_path.read_text(encoding='utf-8'))
+    github_url = publication.get('github_url')
+    dashboard_url = publication.get('dashboard_url')
+    roteiro_video = publication.get('roteiro_video')
+    if roteiro_video and (ROOT / roteiro_video).is_file():
+        status['t18'] = (
+            'roteiro preparado; gravação, edição e YouTube pendentes',
+            f'{roteiro_video} — falas do grupo e demonstração, com duração estimada a confirmar na gravação.'
+        )
+    if github_url and publication.get('github_status', '').startswith('publicado'):
+        status['t20'] = (
+            'repositório público; completar links finais da entrega',
+            f'{github_url} — código, base, relatório e análises disponíveis; conferir dashboard e vídeo no README.'
+        )
+    if dashboard_url and publication.get('dashboard_status', '').startswith('publicado e validado'):
+        status['t17'] = (
+            'publicado e validado',
+            f'{dashboard_url} — evidências em evidencias/testes_publicacao_streamlit.json.'
+        )
+        if github_url:
+            status['t20'] = (
+                'repositório público com link do dashboard; vídeo pendente',
+                f'{github_url} — dashboard validado; completar link do vídeo após a última etapa.'
+            )
 checklist['status_real'] = checklist.id.map(lambda k: status[k][0])
 checklist['evidencia_ou_pendencia'] = checklist.id.map(lambda k: status[k][1])
 checklist.to_csv(docs / 'acompanhamento_a3.csv', index=False, encoding='utf-8-sig')

@@ -1,0 +1,41 @@
+{
+  "paginas_anteriores": 16,
+  "paginas_atuais": 16,
+  "paginas_com_texto_alterado": [
+    15
+  ],
+  "github_url": "https://github.com/herbarth/a3-saneamento-inteligente",
+  "dashboard_url": "https://a3-saneamento-inteligente-brasil.streamlit.app/",
+  "links_clicaveis_confirmados": true,
+  "sha256_pdf": "ddd8771809b1c0923e6c9fb0a7b6403315a34184c95d26bdc124db15b3d9f224",
+  "status_visual": "aprovado: sem sobreposição, corte ou quebra de URL; hierarquia e margens preservadas",
+  "integrantes": "nomes completos pendentes; versao para revisao",
+  "video": "roteiro para gravação pelo grupo preparado; gravação, edição e publicação no YouTube pendentes",
+  "paginas_com_pixels_alterados": [
+    "pagina-15.png"
+  ],
+  "paginas_identicas_ao_qa_anterior": [
+    "pagina-01.png",
+    "pagina-02.png",
+    "pagina-03.png",
+    "pagina-04.png",
+    "pagina-05.png",
+    "pagina-06.png",
+    "pagina-07.png",
+    "pagina-08.png",
+    "pagina-09.png",
+    "pagina-10.png",
+    "pagina-11.png",
+    "pagina-12.png",
+    "pagina-13.png",
+    "pagina-14.png",
+    "pagina-16.png"
+  ],
+  "paginas_revisadas_visualmente_nesta_atualizacao": [
+    15
+  ],
+  "metodo_revisao": "Todas as 16 páginas renderizadas a 100 dpi e comparadas pixel a pixel ao conjunto previamente aprovado. As páginas 1-14 e 16 são idênticas. Página 15, única alterada, foi inspecionada visualmente.",
+  "pasta_qa": "work/relatorio_publicacao_qa",
+  "conteudo_analitico": "preservado; apenas estados e links de disponibilização atualizados",
+  "sha256_dataset": "f2529c8660ff8df47664a2b850a6be7cfbcb5dcc44261dc781249fe5bf7530de"
+}

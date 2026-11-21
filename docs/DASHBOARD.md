@@ -1,4 +1,4 @@
-# Dashboard Streamlit - versão local
+# Dashboard Streamlit — versão online
 
 O painel lê diretamente `data/processed/saneamento_municipios_2024_parcial.csv`. Oferece filtros por região, UF, porte e município, cinco abas de consulta e download do recorte em CSV. A página mantém não respondentes e valores ausentes visíveis; despesas e recuperação usam por padrão a elegibilidade definida no ETL.
 
@@ -27,10 +27,16 @@ Com o detalhamento RAIS integrado, a aba Emprego também apresenta os grupos `vi
 
 ## Publicação
 
-Esta entrega contém o aplicativo local. O repositório público está disponível em https://github.com/herbarth/a3-saneamento-inteligente. A publicação em Streamlit Community Cloud aguarda a entrada e o aceite dos termos pelo usuário; não foi criado um endereço público do painel. Ao publicar, usar `app.py` como arquivo principal; `requirements.txt` já inclui as dependências do painel. Validar o acesso público e os filtros após o deploy.
+Painel público: https://a3-saneamento-inteligente-brasil.streamlit.app/
+
+Repositório: https://github.com/herbarth/a3-saneamento-inteligente
+
+Publicado no Streamlit Community Cloud, branch `main`, arquivo principal `app.py`, Python 3.12.16. O serviço instala `requirements.txt`; nenhuma credencial de dados é necessária. A configuração e os dados processados estão no repositório.
+
+As cinco abas foram inspecionadas no endereço publicado. O filtro da Bahia apresentou 417 municípios e 310 respondentes. O CSV baixado contém 417 linhas e 56 colunas, comparadas com a base local. Uma sessão HTTP nova, sem credenciais, recebeu resposta 200 no endereço público. Evidências em `evidencias/testes_publicacao_streamlit.json`.
 
 ## Validação desta versão
 
-O teste com `streamlit.testing.v1.AppTest` foi executado no processo principal e aprovado em nove cenários com o CSV real: abertura nacional, região, UF, porte, município individual, critério de qualidade, município não respondente, corte visual P1-P99 e controles de recuperação/escala. O resultado está em `evidencias/testes_dashboard.json`, com versões e contagens esperadas e exibidas. Não houve exceções nos cenários. Esse teste funcional não substitui inspeção visual ou validação de acesso público; a publicação ainda não foi executada.
+O teste com `streamlit.testing.v1.AppTest` foi executado no processo principal e aprovado em nove cenários com o CSV real: abertura nacional, região, UF, porte, município individual, critério de qualidade, município não respondente, corte visual P1-P99 e controles de recuperação/escala. O resultado está em `evidencias/testes_dashboard.json`, com versões e contagens esperadas e exibidas. Não houve exceções nos cenários. O teste local foi complementado pela inspeção do painel publicado e pela validação do acesso e do download descritas acima.
 
-A inspeção visual pelo navegador não foi concluída: a abertura do endereço local foi recusada pela autorização de acesso. Os testes funcionais AppTest foram executados e aprovados; acesso público permanece pendente.
+A abertura do endereço local não havia sido autorizada na etapa anterior. A inspeção visual foi realizada posteriormente no endereço público do Streamlit. Ajustou-se o espaçamento superior para evitar que o cabeçalho cobrisse a identificação institucional; os filtros receberam textos em português. As limitações da base permanecem explícitas no painel.

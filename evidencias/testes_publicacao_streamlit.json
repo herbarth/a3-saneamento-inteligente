@@ -1,0 +1,53 @@
+{
+  "executado_em_utc": "2026-11-21T03:02:54.755048+00:00",
+  "dashboard_url": "https://a3-saneamento-inteligente-brasil.streamlit.app/",
+  "http_sem_autenticacao": {
+    "status": 200,
+    "url_final": "https://a3-saneamento-inteligente-brasil.streamlit.app/",
+    "sessao_nova_sem_credenciais": true,
+    "bytes_html": 9782
+  },
+  "navegador_publicado": {
+    "abas_inspecionadas": [
+      "Panorama",
+      "Despesas",
+      "Recuperação",
+      "Emprego formal",
+      "Qualidade e fontes"
+    ],
+    "abertura_nacional": {
+      "municipios": 5570,
+      "respondentes": 4854,
+      "nao_respondentes": 716
+    },
+    "despesas_amostra": 4852,
+    "mediana_dex_residente": 69.17,
+    "vinculos_cnae38": 265143,
+    "qualidade": {
+      "alertas_massa": 2,
+      "alertas_territoriais": 4
+    },
+    "filtro_bahia": {
+      "municipios": 417,
+      "respondentes": 310
+    }
+  },
+  "download_bahia": {
+    "linhas": 417,
+    "colunas": 56,
+    "conteudo_comparado_com_base_local": "aprovado; comparação de todas as células com tolerância de serialização numérica",
+    "sha256_csv_baixado": "efe4de3b325bd67c870936844bfe9a2c68d55898fb947346885ec69ebc0a48da"
+  },
+  "sha256_dataset": "f2529c8660ff8df47664a2b850a6be7cfbcb5dcc44261dc781249fe5bf7530de",
+  "ambiente_nuvem_observado_logs": {
+    "python": "3.12.16",
+    "streamlit": "1.67.0",
+    "pandas": "3.1.1",
+    "numpy": "2.5.5",
+    "plotly": "7.1.0",
+    "pyarrow": "24.0.0"
+  },
+  "revisao_visual_final": "aprovada: identificação institucional integral, filtros em português, base integrada e panorama nacional conferidos após atualização",
+  "resultado_funcional_publico": "aprovado",
+  "captura_tela": "evidencias/dashboard_online.jpg"
+}

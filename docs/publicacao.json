@@ -5,8 +5,13 @@
   "arquivos_primeira_publicacao": 104,
   "verificacao": "104 hashes de objetos Git conferidos com os arquivos locais; árvore remota não truncada",
   "data_local_contexto": "2026-11-20",
-  "dashboard_url": null,
-  "dashboard_status": "publicação pendente de entrada e aceite de termos pelo usuário no Streamlit",
+  "dashboard_url": "https://a3-saneamento-inteligente-brasil.streamlit.app/",
+  "dashboard_status": "publicado e validado: cinco abas, filtro por estado, download CSV e acesso em sessão nova sem credenciais",
   "video_url": null,
-  "video_status": "última etapa conforme usuário; não produzido"
+  "video_status": "roteiro para gravação pelo grupo preparado; gravação, edição e publicação no YouTube pendentes",
+  "dashboard_validado_em_utc": "2026-11-21T03:03:37.633569+00:00",
+  "dashboard_evidencias": "evidencias/testes_publicacao_streamlit.json",
+  "roteiro_video": "docs/Roteiro_Video_A3.txt",
+  "roteiro_palavras_faladas": 671,
+  "roteiro_tempo_meta": "6min20s; estimativa de montagem, não duração de vídeo gravado"
 }
