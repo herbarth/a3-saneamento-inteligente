@@ -1,0 +1,32 @@
+{
+  "data_local_contexto": "2026-11-22",
+  "dataset_sha256_inalterado": "f2529c8660ff8df47664a2b850a6be7cfbcb5dcc44261dc781249fe5bf7530de",
+  "relatorio_word": {
+    "arquivo": "relatorios/Relatorio_A3_Saneamento_Inteligente.docx",
+    "sha256": "8c1245df5b9d8004f8aab69f37e4cf39c42b21aeee9657ddac828cf820cbedc1",
+    "paginas": 16,
+    "texto_preservado": true,
+    "paragrafos_fonte_conferidos": 245,
+    "tabelas_editaveis": 9,
+    "figuras": 4,
+    "links_externos": 8,
+    "sumario_nativo_entradas_conferidas": 31,
+    "inspecao_visual_paginas": 16,
+    "formatacao": "A4, Arial12, corpo1,5, margens3cm superior/esquerda e2cm inferior/direita"
+  },
+  "powerpoint": {
+    "arquivo": "apresentacao/Slides_A3_Saneamento_Inteligente.pptx",
+    "sha256": "b0f80a2bde051cc2c52a56b67a23ed30ddb070d21bc05eec95b69e1b7e40a392",
+    "slides": 10,
+    "graficos_nativos": 5,
+    "planilhas_de_dados_incorporadas": 5,
+    "validacao_estrutural": true,
+    "aberto_e_renderizado_no_powerpoint_16": true,
+    "transicao": "Fade smoothly",
+    "duracao_segundos": 0.6,
+    "avanco": "ao clique, sem temporizador",
+    "precisao_dos_graficos": "despesas com2 casas; correlações com3 casas; estoques inteiros; dados completos preservados nas análises",
+    "ilustracao": "conceitual, gerada por IA, incorporada ao PPTX; não é registro de instalação real"
+  },
+  "limites": "Identificação dos integrantes e vídeo final continuam pendentes. O roteiro e o guia de leitura são arquivos privados do pacote do grupo."
+}

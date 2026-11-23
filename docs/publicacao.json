@@ -17,5 +17,10 @@
   "roteiro_disponibilizacao": "enviado diretamente ao grupo, fora do repositório",
   "planilha_excel": "planilhas/Planilha_A3_Saneamento_Inteligente.xlsx",
   "planilha_excel_status": "validada: cinco abas, valores comparados, fórmulas, filtros, congelamento e renderizações verificados",
-  "planilha_excel_sha256": "6fae3df18d8087fe3bd1ddbfbe463ec130d6074fe3d5ed6d600b24b0565eb96d"
+  "planilha_excel_sha256": "6fae3df18d8087fe3bd1ddbfbe463ec130d6074fe3d5ed6d600b24b0565eb96d",
+  "relatorio_word": "relatorios/Relatorio_A3_Saneamento_Inteligente.docx",
+  "relatorio_word_sha256": "8c1245df5b9d8004f8aab69f37e4cf39c42b21aeee9657ddac828cf820cbedc1",
+  "slides_powerpoint": "apresentacao/Slides_A3_Saneamento_Inteligente.pptx",
+  "slides_powerpoint_sha256": "b0f80a2bde051cc2c52a56b67a23ed30ddb070d21bc05eec95b69e1b7e40a392",
+  "formatos_editaveis_status": "arquivos locais criados e conferidos; sincronização GitHub registrada separadamente"
 }
