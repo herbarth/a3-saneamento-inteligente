@@ -31,3 +31,6 @@ data/raw/*.comt
 data/raw/*.COMT
 data/raw/rais_setorial_extraido/
 data/raw/*.txt
+
+evidencias/anexos_professor/
+relatorios/qa_word_gerado/
