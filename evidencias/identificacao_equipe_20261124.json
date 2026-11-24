@@ -1,0 +1,29 @@
+{
+  "status": "aprovado",
+  "data_local": "2026-11-24",
+  "escopo": "Atualização da identificação acadêmica fornecida pelo usuário.",
+  "integrantes": 5,
+  "matriculas_como_informadas": true,
+  "matricula_pedro_conferencia": "pendente; usuário orientou manter o número enviado",
+  "relatorio_docx_sha256": "9702e57b3080068989821ff2fa764a607be3076de585218725b97a3cfa6c0a6b",
+  "relatorio_pdf_sha256": "6c3d88d0037df6a1e9ca9e76498f6fc2b1684bc0faf75633519037fb0b2d6c93",
+  "paginas": 35,
+  "paginas_imagens_alteradas_inspecionadas": [
+    1,
+    28,
+    29,
+    35
+  ],
+  "paginas_anteriores_idênticas": 31,
+  "tabelas_editaveis_preservadas": 17,
+  "figuras_preservadas": 8,
+  "conteudo_analitico_tabelas_e_imagens_preservado": true,
+  "revisao_visual": "Páginas alteradas abertas individualmente pelo agente principal. Capa com cinco pares nome/matrícula; sem cortes ou sobreposições. Demais imagens finais idênticas por SHA256 às já aprovadas.",
+  "pendencias": [
+    "Conferir matrícula de Pedro.",
+    "Gravar, editar e publicar o vídeo, conferir duração real de até7min e inserir o link YouTube.",
+    "Submeter o repositório à disciplina."
+  ],
+  "equipe_fonte": "Identificação fornecida pelo usuário; matrícula de Pedro preservada por sua orientação.",
+  "historico_revisao_template": "evidencias/revisao_template_20261124.json"
+}

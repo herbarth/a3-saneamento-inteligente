@@ -14,4 +14,4 @@ Não se impõe cumprimento estrito de um manual de TCC ou elementos adicionais d
 
 ## Identificação e itens pendentes
 
-Curso e professor foram inseridos conforme informados. O semestre é 2026.2. Nomes completos, RAs/matrículas e composição real de 3 a 5 integrantes ainda dependem do grupo; não são preenchidos por inferência. O capítulo de storytelling mantém o vídeo, sua URL e duração real como pendentes até gravação, publicação e conferência. A predição opcional permanece dispensada.
+Curso e professor foram inseridos conforme informados. O semestre é 2026.2. O usuário informou os nomes e as matrículas dos cinco integrantes; a quantidade atende à composição de 3 a 5 alunos. A matrícula de Pedro permanece exatamente como enviada, com conferência pendente; não houve validação em sistema acadêmico. O capítulo de storytelling mantém o vídeo, sua URL e duração real como pendentes até gravação, publicação e conferência. A predição opcional permanece dispensada.

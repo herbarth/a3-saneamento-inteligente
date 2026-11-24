@@ -4,10 +4,21 @@
   "disciplina": "Análise de Dados e Big Data",
   "professor": "Eduardo Sidney da Silva Xavier",
   "integrantes": [
-    "[Nomes completos dos integrantes a informar]"
+    "Maria Júlia Santos Oliveira",
+    "Pedro Augusto Santos Dias de Mendes Ribeiro",
+    "Herbart Henrique Alves Oliveira Filho",
+    "Gabriel Sandes Coelho Argolo",
+    "Roberto Santana de Moraes"
   ],
   "semestre": "2026.2",
   "matriculas": [
-    "[RA/matrícula a informar]"
-  ]
+    "12724145233",
+    "1272419928",
+    "12725132006",
+    "12725121003",
+    "12725144893"
+  ],
+  "quantidade_integrantes": 5,
+  "origem_identificacao": "Informada pelo usuário na conversa.",
+  "conferencia_pendente": "Confirmar com Pedro sua matrícula 1272419928, mantida exatamente como enviada por orientação do usuário."
 }

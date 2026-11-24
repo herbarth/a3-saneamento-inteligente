@@ -104,5 +104,10 @@
     "Inserir o link do vídeo no GitHub e validar sua abertura pública.",
     "Submeter o endereço do repositório à disciplina até 03/12/2026."
   ],
-  "publicacao_github_executada_por_este_script": false
+  "publicacao_github_executada_por_este_script": false,
+  "atualizacao_identificacao_posterior": {
+    "registro": "evidencias/identificacao_equipe_20261124.json",
+    "estado": "equipe de cinco integrantes informada; matrícula de Pedro a conferir",
+    "nota": "Os hashes e pendências do corpo histórico referem-se à versão anterior. O relatório atual está identificado em entregas_editaveis.json."
+  }
 }

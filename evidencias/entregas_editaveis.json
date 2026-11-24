@@ -3,7 +3,7 @@
   "dataset_sha256_inalterado": "f2529c8660ff8df47664a2b850a6be7cfbcb5dcc44261dc781249fe5bf7530de",
   "relatorio_word": {
     "arquivo": "relatorios/Relatorio_A3_Saneamento_Inteligente.docx",
-    "sha256": "01b8cb9d2ed5666a2b7f48bce533a580e3acd2e062c6f18db52d6bdc2168a1db",
+    "sha256": "9702e57b3080068989821ff2fa764a607be3076de585218725b97a3cfa6c0a6b",
     "paginas": 35,
     "tabelas_editaveis": 17,
     "figuras": 8,
@@ -29,7 +29,7 @@
     "precisao_dos_graficos": "despesas com2 casas; correlações com3 casas; estoques inteiros; dados completos preservados nas análises",
     "ilustracao": "conceitual, gerada por IA, incorporada ao PPTX; não é registro de instalação real"
   },
-  "limites": "Identificação completa, vídeo real, link YouTube e submissão permanecem pendentes. Roteiro e guia foram preparados somente no pacote privado para o usuário encaminhar.",
+  "limites": "Matrícula de Pedro a conferir; vídeo real, link YouTube e submissão permanecem pendentes. Roteiro e guia ficam no pacote privado.",
   "historico_relatorio_word": [
     {
       "data_local_contexto": "2026-11-22",
@@ -47,12 +47,30 @@
         "formatacao": "A4, Arial12, corpo1,5, margens3cm superior/esquerda e2cm inferior/direita"
       },
       "escopo": "versão anterior à revisão estrutural pelo template"
+    },
+    {
+      "relatorio_word": {
+        "arquivo": "relatorios/Relatorio_A3_Saneamento_Inteligente.docx",
+        "sha256": "9702e57b3080068989821ff2fa764a607be3076de585218725b97a3cfa6c0a6b",
+        "paginas": 35,
+        "tabelas_editaveis": 17,
+        "figuras": 8,
+        "links_externos": 10,
+        "paragrafos_corpo_incluindo_sumario": 272,
+        "estrutura_template": "dez seções principais; seção 6 registra a dispensa da predição opcional",
+        "dicionario_interno_variaveis": 56,
+        "estatistica_descritiva_visivel": true,
+        "inspecao_visual_paginas": 35,
+        "formatacao": "A4, Arial 12, corpo 1,5 e margens acadêmicas; aparência formal solicitada pelo usuário, sem impor manual de TCC"
+      },
+      "escopo": "versão aprovada anterior à identificação dos cinco integrantes"
     }
   ],
   "relatorio_pdf": {
     "arquivo": "relatorios/Relatorio_A3_Saneamento_Inteligente.pdf",
-    "sha256": "45f736146a9528d482ac578fadbf5364af8e883d844531ed41a63e6408ab23df",
+    "sha256": "6c3d88d0037df6a1e9ca9e76498f6fc2b1684bc0faf75633519037fb0b2d6c93",
     "paginas": 35
   },
-  "revisao_documental": "evidencias/revisao_template_20261124.json"
+  "revisao_documental": "evidencias/revisao_template_20261124.json",
+  "identificacao_equipe": "evidencias/identificacao_equipe_20261124.json"
 }

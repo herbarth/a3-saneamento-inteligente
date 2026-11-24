@@ -15,7 +15,7 @@ Referência dos dados: 2024 · Revisão numérica: 21/11/2026 · Revisão docume
 - **Slides em PowerPoint:** [abrir os dez slides com transições](apresentacao/Slides_A3_Saneamento_Inteligente.pptx)
 - **Vídeo:** gravação e publicação pendentes; o link final será incluído após a conferência.
 
-A revisão numérica de 21/11/2026 permanece documentada. A revisão de 24/11/2026 incorpora o template do professor e torna os elementos exigidos visíveis no relatório. Permanecem pendentes os nomes e RAs/matrículas, a composição da equipe, o vídeo, seu link e a submissão final.
+A revisão numérica de 21/11/2026 permanece documentada. A revisão de 24/11/2026 incorpora o template do professor e torna os elementos exigidos visíveis no relatório. A identificação dos cinco integrantes foi informada pelo usuário. Permanecem pendentes a conferência da matrícula de Pedro, o vídeo, seu link e a submissão final.
 
 ## Resultado executado
 
@@ -83,7 +83,7 @@ O edital Word fornecido em 24/11/2026 exige expressamente **GitHub com relatóri
 
 A apresentação preserva dez slides editáveis em PowerPoint, com transições suaves e gráficos com dados incorporados. O vídeo fica por último e será narrado pelo próprio grupo. O roteiro de **744 palavras**, com meta estimada de **6min20s**, e o guia de leitura foram preparados no pacote privado para o usuário encaminhar. Eles ficam fora deste repositório; não houve envio automatizado a terceiros.
 
-Faltam os **nomes completos e RAs/matrículas**, a confirmação da equipe de **3 a 5 alunos**, a gravação/edição e publicação no **YouTube**, a conferência da duração real de até **7 minutos**, a inclusão do link no GitHub e a submissão à disciplina até **03/12/2026**. Curso e professor já foram informados; o semestre é **2026.2**.
+A equipe tem **cinco integrantes**, com nomes e matrículas informados pelo usuário. A matrícula de Pedro foi mantida como enviada e ainda deve ser conferida. Faltam a gravação/edição e publicação no **YouTube**, a conferência da duração real de até **7 minutos**, a inclusão do link no GitHub e a submissão à disciplina até **03/12/2026**. Curso e professor já foram informados; o semestre é **2026.2**.
 
 O dashboard está publicado. A conferência online de 23/11/2026 inspecionou cinco abas, filtro da Bahia e CSV de 417 linhas × 56 colunas; o serviço foi reativado após hibernação por inatividade. Esta revisão documental não repete nem substitui aquela conferência de disponibilidade.
 

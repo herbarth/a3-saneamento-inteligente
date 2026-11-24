@@ -19,20 +19,27 @@
   "planilha_excel_status": "validada: cinco abas, valores comparados, fórmulas, filtros, congelamento e renderizações verificados",
   "planilha_excel_sha256": "6fae3df18d8087fe3bd1ddbfbe463ec130d6074fe3d5ed6d600b24b0565eb96d",
   "relatorio_word": "relatorios/Relatorio_A3_Saneamento_Inteligente.docx",
-  "relatorio_word_sha256": "01b8cb9d2ed5666a2b7f48bce533a580e3acd2e062c6f18db52d6bdc2168a1db",
+  "relatorio_word_sha256": "9702e57b3080068989821ff2fa764a607be3076de585218725b97a3cfa6c0a6b",
   "slides_powerpoint": "apresentacao/Slides_A3_Saneamento_Inteligente.pptx",
   "slides_powerpoint_sha256": "b0f80a2bde051cc2c52a56b67a23ed30ddb070d21bc05eec95b69e1b7e40a392",
   "formatos_editaveis_status": "Word e PDF locais revisados e conferidos; a sincronização posterior com o GitHub deve ser registrada separadamente",
   "guia_disponibilizacao": "preparado no pacote privado para o usuário encaminhar; fora do repositório",
   "relatorio_word_paginas": 35,
   "relatorio_pdf": "relatorios/Relatorio_A3_Saneamento_Inteligente.pdf",
-  "relatorio_pdf_sha256": "45f736146a9528d482ac578fadbf5364af8e883d844531ed41a63e6408ab23df",
+  "relatorio_pdf_sha256": "6c3d88d0037df6a1e9ca9e76498f6fc2b1684bc0faf75633519037fb0b2d6c93",
   "data_revisao_documental": "2026-11-24",
   "revisao_documental_evidencia": "evidencias/revisao_template_20261124.json",
   "pendencias_entrega": [
-    "Nomes completos e RA/matrícula dos integrantes, com confirmação da equipe de 3 a 5 alunos.",
+    "Conferir a matrícula de Pedro, preservada exatamente como enviada pelo usuário.",
     "Gravação, edição e publicação do vídeo no YouTube; conferir duração real de até 7 minutos.",
     "Inserir o link do vídeo no GitHub e validar sua abertura pública.",
     "Submeter o endereço do repositório à disciplina até 03/12/2026."
-  ]
+  ],
+  "identificacao_equipe": {
+    "status": "nomes e matrículas informados pelo usuário; conferência da matrícula de Pedro pendente",
+    "quantidade_integrantes": 5,
+    "matriculas_validadas_em_sistema_academico": false,
+    "fonte": "informação fornecida pelo usuário na conversa"
+  },
+  "identificacao_evidencia": "evidencias/identificacao_equipe_20261124.json"
 }

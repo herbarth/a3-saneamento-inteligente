@@ -15,6 +15,6 @@ Antes de distribuir uma nova edição, abra o Word, atualize o sumário e os cam
 
 Para gerar uma cópia de teste sem substituir o arquivo entregue, defina `A3_WORD_OUTPUT_PATH` para outro destino. Para o PDF, use `A3_REPORT_OUTPUT_PATH`. `A3_PROJECT_ROOT` permite apontar ambos para outra cópia completa do projeto.
 
-Os nomes completos e RAs/matrículas devem ser preenchidos em `docs/identificacao_academica.json` antes da nova geração. A composição real da equipe também precisa ser confirmada. O link e a duração real do vídeo permanecem pendentes e devem ser conferidos depois da gravação. O roteiro de fala e o guia do grupo são distribuídos separadamente, fora do repositório público.
+Os nomes e as matrículas dos cinco integrantes foram informados pelo usuário e são mantidos em `docs/identificacao_academica.json`. A matrícula de Pedro deve ser conferida antes da entrega; até lá, permanece exatamente como enviada. Alterações posteriores devem ser registradas nesse arquivo antes da nova geração. O link e a duração real do vídeo permanecem pendentes e devem ser conferidos depois da gravação. O roteiro de fala e o guia do grupo são distribuídos separadamente, fora do repositório público.
 
 Os anexos integrais do professor ficam apenas no pacote técnico local, em `evidencias/anexos_professor/`. As versões de referência são identificadas por título e hash nas evidências públicas da revisão. Os cálculos e a base preservam os registros de validação anteriores; a revisão documental não representa nova extração dos microdados RAIS.

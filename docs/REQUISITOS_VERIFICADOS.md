@@ -15,7 +15,7 @@ Foram considerados os três documentos Word fornecidos: **Enunciado Avaliação 
 - O capítulo 8 descreve a ferramenta, os insights e o link público do painel. O capítulo 9 separa a narrativa planejada da **URL e duração real do vídeo ainda pendentes**. O capítulo 10 confronta objetivos, resultados, contribuições, limites e trabalhos futuros.
 - A predição permanece **opcional e dispensada**. Os oito blocos e tempos da sugestão de vídeo são orientações de comunicação; não obrigam oito slides, divisão igual da fala ou narração automática. O grupo optou por gravar sua própria fala.
 
-Registro atual: `evidencias/revisao_template_20261124.json`. Pendências: nomes e RAs/matrículas, composição da equipe, vídeo YouTube de até 7 minutos, inclusão do link e submissão até **03/12/2026**.
+Revisão estrutural: `evidencias/revisao_template_20261124.json`. Atualização da identificação: `evidencias/identificacao_equipe_20261124.json`. Foram informados cinco integrantes e suas matrículas. Pendências atuais: conferir a matrícula de Pedro, produzir e publicar o vídeo YouTube de até 7 minutos, incluir o link e submeter até **03/12/2026**.
 
 ## Registro histórico dos anexos anteriores
 
