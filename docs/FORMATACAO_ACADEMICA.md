@@ -6,11 +6,9 @@ O **Template_Relatório Final** fornecido em 24/11/2026 é a referência de estr
 
 O relatório torna visíveis o diagrama do ETL, o dicionário interno das 56 variáveis, quartis e desvio padrão na estatística descritiva, e a matriz de priorização das recomendações. Responsáveis e benefícios das prescrições são propostos para avaliação; não constituem compromissos de uma prefeitura nem ganhos já medidos.
 
-## Aparência acadêmica formal
+## Formato do professor
 
-A apresentação mantém a preferência do grupo: papel A4, texto preto, Arial 12 no corpo, espaçamento 1,5, margens superior/esquerda de 3 cm e inferior/direita de 2 cm, capa, sumário, seções numeradas, tabelas, figuras e referências. Tabelas e notas podem usar tamanhos menores legíveis. O template controla a estrutura; sua aparência de folha de preenchimento não precisa substituir o estilo formal já solicitado.
-
-Não se impõe cumprimento estrito de um manual de TCC ou elementos adicionais de ABNT. O manual da biblioteca consultado anteriormente não se torna uma exigência da entrega. A versão final deve passar por renderização e inspeção visual integral antes da disponibilização.
+A edição de 27/11/2026 foi preenchida no próprio DOCX fornecido pelo professor. Mantém a folha A4 com margens de 1,27 cm, estilos e títulos do documento, a capa com a tabela de integrantes e as dez seções. O dicionário completo está na seção 3.7. A tabela de estatísticas segue a estrutura original, com os quartis complementares na mesma seção conforme o edital.
 
 ## Identificação e itens pendentes
 

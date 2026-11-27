@@ -1,19 +1,25 @@
 {
-  "data_local_contexto": "2026-11-24",
+  "data_local_contexto": "2026-11-27",
   "dataset_sha256_inalterado": "f2529c8660ff8df47664a2b850a6be7cfbcb5dcc44261dc781249fe5bf7530de",
   "relatorio_word": {
     "arquivo": "relatorios/Relatorio_A3_Saneamento_Inteligente.docx",
-    "sha256": "9702e57b3080068989821ff2fa764a607be3076de585218725b97a3cfa6c0a6b",
-    "paginas": 35,
+    "sha256": "561ce0f299296745815b241bb493cf48733c1c6a11b1b73f0f06092daf35f74e",
+    "paginas": 30,
     "tabelas_editaveis": 17,
     "figuras": 8,
     "links_externos": 10,
-    "paragrafos_corpo_incluindo_sumario": 272,
     "estrutura_template": "dez seções principais; seção 6 registra a dispensa da predição opcional",
     "dicionario_interno_variaveis": 56,
     "estatistica_descritiva_visivel": true,
-    "inspecao_visual_paginas": 35,
-    "formatacao": "A4, Arial 12, corpo 1,5 e margens acadêmicas; aparência formal solicitada pelo usuário, sem impor manual de TCC"
+    "inspecao_visual_paginas": 30,
+    "formatacao": "Arquivo preenchido no DOCX do professor. A4, margens de 1,27 cm, estilos e estrutura do modelo, capa com tabela da equipe, sem sumário adicional.",
+    "fidelidade_template": {
+      "arquivo_referencia": "Template_Relatório Final (1).docx",
+      "sha256": "3e7ac89c2f37d927817d21327b685a9704784f1e4e164c2e5ab88e71bce75ebc",
+      "dez_secoes_literais": true,
+      "colunas_dicionario_secao_3_7": 56,
+      "tabelas_modelo": 11
+    }
   },
   "powerpoint": {
     "arquivo": "apresentacao/Slides_A3_Saneamento_Inteligente.pptx",
@@ -64,12 +70,35 @@
         "formatacao": "A4, Arial 12, corpo 1,5 e margens acadêmicas; aparência formal solicitada pelo usuário, sem impor manual de TCC"
       },
       "escopo": "versão aprovada anterior à identificação dos cinco integrantes"
+    },
+    {
+      "data_local_contexto": "2026-11-24",
+      "relatorio_word": {
+        "arquivo": "relatorios/Relatorio_A3_Saneamento_Inteligente.docx",
+        "sha256": "9702e57b3080068989821ff2fa764a607be3076de585218725b97a3cfa6c0a6b",
+        "paginas": 35,
+        "tabelas_editaveis": 17,
+        "figuras": 8,
+        "links_externos": 10,
+        "paragrafos_corpo_incluindo_sumario": 272,
+        "estrutura_template": "dez seções principais; seção 6 registra a dispensa da predição opcional",
+        "dicionario_interno_variaveis": 56,
+        "estatistica_descritiva_visivel": true,
+        "inspecao_visual_paginas": 35,
+        "formatacao": "A4, Arial 12, corpo 1,5 e margens acadêmicas; aparência formal solicitada pelo usuário, sem impor manual de TCC"
+      },
+      "relatorio_pdf": {
+        "arquivo": "relatorios/Relatorio_A3_Saneamento_Inteligente.pdf",
+        "sha256": "6c3d88d0037df6a1e9ca9e76498f6fc2b1684bc0faf75633519037fb0b2d6c93",
+        "paginas": 35
+      },
+      "escopo": "edição anterior ao preenchimento diretamente no template do professor"
     }
   ],
   "relatorio_pdf": {
     "arquivo": "relatorios/Relatorio_A3_Saneamento_Inteligente.pdf",
-    "sha256": "6c3d88d0037df6a1e9ca9e76498f6fc2b1684bc0faf75633519037fb0b2d6c93",
-    "paginas": 35
+    "sha256": "4e62d856d0e9e2b0bc236fce9a7b82ca502d44c9dbc316154e257e25968d6c3e",
+    "paginas": 30
   },
   "revisao_documental": "evidencias/revisao_template_20261124.json",
   "identificacao_equipe": "evidencias/identificacao_equipe_20261124.json"

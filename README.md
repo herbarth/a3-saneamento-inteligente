@@ -77,9 +77,9 @@ A opção baixa o arquivo se necessário, verifica o SHA256 e executa a agregaç
 
 ## Decisões da entrega
 
-O relatório segue as **dez seções do Template_Relatório Final** do professor. A EDA apresenta no corpo do documento média, mediana, quartis Q1/Q3, desvio padrão amostral, mínimo e máximo, com indicação de unidades e amostras. O ETL inclui diagrama e dicionário das 56 variáveis. As prescrições explicitam responsáveis propostos, benefícios esperados e indicadores, acompanhados de matriz qualitativa de prioridade. Dashboard e storytelling têm capítulos próprios.
+O relatório foi preenchido **no próprio Template_Relatório Final** do professor, com a capa, os estilos e as dez seções do modelo. A EDA apresenta no corpo do documento média, mediana, quartis Q1/Q3, desvio padrão amostral, mínimo e máximo, com indicação de unidades e amostras. O ETL inclui diagrama e dicionário das 56 variáveis. As prescrições explicitam responsáveis propostos, benefícios esperados e indicadores, acompanhados de matriz qualitativa de prioridade. Dashboard e storytelling têm capítulos próprios.
 
-O edital Word fornecido em 24/11/2026 exige expressamente **GitHub com relatório e links do dashboard e do vídeo**, além da checklist. A aparência acadêmica formal segue a preferência do grupo; não são acrescentadas exigências de um manual de TCC. **A análise preditiva continua opcional e dispensada**, com a decisão registrada na seção 6.
+O edital Word fornecido em 24/11/2026 exige expressamente **GitHub com relatório e links do dashboard e do vídeo**, além da checklist. A formatação segue o documento fornecido pelo professor. **A análise preditiva continua opcional e dispensada**, com a decisão registrada na seção 6.
 
 A apresentação preserva dez slides editáveis em PowerPoint, com transições suaves e gráficos com dados incorporados. O vídeo fica por último e será narrado pelo próprio grupo. O roteiro de **744 palavras**, com meta estimada de **6min20s**, e o guia de leitura foram preparados no pacote privado para o usuário encaminhar. Eles ficam fora deste repositório; não houve envio automatizado a terceiros.
 
